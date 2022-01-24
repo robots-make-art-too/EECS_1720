@@ -6,6 +6,8 @@ commits made while instructing EECS 1720 (winter 2022) (course @York University,
 - it's there if you're interested though
 
 ## what's new
+> course syllabus with updated due dates is now available
+>>
 > browser extension demo is in .. extension-demo/
 >>
 >>  Be sure to check additional info in extension-debugINFO.md
