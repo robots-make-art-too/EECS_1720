@@ -25,7 +25,23 @@
 
 ### JS in HTML Document
 
-`code`
+`
+	<!DOCTYPE html>
+	<html>
+	<head>
+	    <script>
+	        function gfg() {
+	        document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
+	        }
+	    </script>
+	</head>
+	<body>
+	    <h2>JavaScript in Head</h2>
+	    <p id="demo" style="color:green;">geeksforgeeks.</p>
+	    <button type="button" onclick="gfg()">click it</button>
+	</body>
+	</html>
+`
 
 
 ## Strict Mode
