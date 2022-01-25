@@ -26,21 +26,21 @@
 ### JS in HTML Document
 
 `
-	<!DOCTYPE html>
-	<html>
-	<head>
-	    <script>
-	        function interact() {
-	        document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
-	        }
-	    </script>
-	</head>
-	<body>
-	    <h2>JavaScript in Head</h2>
-	    <p id="demo" style="color:green;">interactive</p>
-	    <button type="button" onclick="interact()">click it</button>
-	</body>
-	</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function interact() {
+        document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
+        }
+    </script>
+</head>
+<body>
+    <h2>JavaScript in Head</h2>
+    <p id="demo" style="color:green;">interactive</p>
+    <button type="button" onclick="interact()">click it</button>
+</body>
+</html>
 `
 
 
