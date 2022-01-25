@@ -25,6 +25,8 @@
 
 ### JS in HTML Document
 
+1. JavaScript in `<head>`
+
 ```JavaScript
 	<!DOCTYPE html>
 	<html>
@@ -43,22 +45,10 @@
 	</html>
 ```
 
-```JavaScript
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<script>
-			function interact() {
-				document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
-			}
-		</script>
-	</head>
-	<body>
-		<p id="demo" style="color:green;">interactive</p>
-		<button type="button" onclick="interact()">click it</button>
-	</body>
-	</html>
-```
+2. JavaScript in `<body>`
+
+
+3. JavaScript from External Files `addmore.js`
 
 
 ## Strict Mode
