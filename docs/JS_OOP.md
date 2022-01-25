@@ -1,4 +1,6 @@
-# JavaScript OOP [O]bject [O]riented [P]rogramming
+# JavaScript OOP 
+
+	- [O]bject [O]riented [P]rogramming
 
 
 ## Quick Introduction
