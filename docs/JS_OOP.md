@@ -11,13 +11,16 @@
 	 - interpreted:
 	 - scripting:
 
->> FYI HTML: [H]yper [T]ext [M]arkup [L]anguage
->> FYI CSS: [C]ascading [S]tyle [S]heets
+> FYI HTML: [H]yper [T]ext [M]arkup [L]anguage
+
+> FYI CSS: [C]ascading [S]tyle [S]heets
 
 So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing(confusion inevitable).
 
 
-**If we want anything to change on a webpage without reloading the entire page, we need JavaScript**(https://css-tricks.com/why-javascript-is-eating-html/) <- also useful in clarifying `imperative` v `declarative` programming ... and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
+**If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)
+
+	- also useful in clarifying `imperative` v `declarative` programming ... and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
 
 ```
 	<script>
@@ -39,28 +42,35 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	 - Replace existing logic
 
 		**Result:**
->>> I totally know JavaScript: performs like the best programming language ever
->>> I thought Java was short for JavaScript: why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
+
+> I totally know JavaScript: performs like the best programming language ever
+
+> I thought Java was short for JavaScript: why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
 
  This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project. A shared Group Project. With different files. And different ~~styles~~. No. We will `use strict` and follw `EC`
 
 
 ### What
 
-	- server side: allows interacting
-	- client side: how we interact with
-		- from client to server: Node.js is the best! (this is `debatable` (not really) but it's what we will use... because... it is what I use ^.^ (and it is powerful server-side))
+- server side: allows interacting
 
-  - what else?
-		- art: p5.js
-		- machine learning: ml5.js
+- client side: how we interact with
+	
+	- from client to server: Node.js is the best! (this is `debatable` (not really) but it's what we will use... because... it is what I use ^.^ (and it is powerful server-side))
+
+- what else?
+	- art: p5.js
+	- machine learning: ml5.js
 
 
 ### How
 
  - internal JS: into the html `<script>` between tags `</script>`
+
  	 - <head> here </head> _or_ <body> here </body>
+
  - external JS: link to separate file as an `extension.js`
+
  	 - <head> usually here </head>
 
 
@@ -160,44 +170,55 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 1. Cached JavaScript files can speed up page loading
 	 - SO? Load these and decide:
-		[slow]https://www.dollartree.com/
-		[fast]
+
+		 1. [slow](https://www.dollartree.com/)
+	
+		 2. [fast]
+
 2. Separate HTML and JavaScript code
+
 	 - SO? Easier to read and maintain
 
 ## Strict Mode
-
-
 
 
 ### What is this?
 
 
 ### Syntax
-```
-	"use strict";
 
+"use strict";
+
+```
 	"use strict"; // Turn on strict mode.
 
 	myVariable = 1;
+```
 
-	Output:
+Output:
 
+```
 	Uncaught ReferenceError: a is not defined
+```
 
 
 Ex.
 
+```
 	"use strict"; // Turn on strict mode.
 	let myVariable = 1;
 	delete myVariable; 
+```
 
 Output: 
-Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
-
->>>  JavaScript provides the functionality where you can define a property of an object as deletable that qualifies the property to be deleted in strict mode.
 
 ```
+Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
+
+```
+
+>  JavaScript provides the functionality where you can define a property of an object as deletable that qualifies the property to be deleted in strict mode.
+
 
 ### Key Features
 
@@ -214,12 +235,9 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 3. Enforcing reserved keywords 
 
 
-
-
-
 ## Functions
 
-? A function is a set of statements that take inputs, do some specific computation, and produces output. 
+A function is a set of statements that take inputs, do some specific computation, and produces output. 
 
 ### Syntax
 
@@ -228,17 +246,19 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 	{
 	    // Function body
 	}
+```
 
+```
 	function calcAddition(number1, number2)
 	{
 	    return number1 + number2;
 	}
+```
 
-
+```
 functionName(Value1, Value2, ..);
 
 ```
-
 
 ### Definition
 
@@ -296,16 +316,18 @@ functionName(Value1, Value2, ..);
 	}
 	console.log(person.getFunction());
 	console.log(person.phone_number.landline);
+```
 
-
-	Output:
-	The name of the person is Git                  Hub
-													  ${person.first_name} ${person.last_name}
-
-	6789
-
+Output:
 
 ```
+	The name of the person is Git Hub
+
+	6789
+```
+
+Note: Git comes from returning ${person.first_name}; Hub comes from returning ${person.last_name}
+
 
 2. Object Constructor
 
@@ -323,9 +345,11 @@ functionName(Value1, Value2, ..);
 
 	console.log(person1.first_name);
 	console.log(`${person2.first_name} ${person2.last_name}`);
+```
 
+Output: 
 
-	Output: 
+```
 	First
 
 	Git Hub
@@ -334,6 +358,7 @@ functionName(Value1, Value2, ..);
 
 
 3. Object.create() method
+
 
 ```
 	// Object.create() example a
@@ -356,10 +381,11 @@ functionName(Value1, Value2, ..);
 	me.isStudying = true;
 
 	me.printIntroduction();
+```
 
+Output: 
 
-	Output: 
-
+```
 	My name is 1720. Am I studying?: true
 
 ```
@@ -392,16 +418,16 @@ functionName(Value1, Value2, ..);
 	console.log(bike1.name); // Hayabusa
 	console.log(bike2.maker); // Kawasaki
 	console.log(bike1.getDetails());
+```
 
+Output:
 
-	Output:
-
+```
 	Hayabusa
 
 	Kawasaki
 
 	The name of the bike is Hyabusa.
-
 ```
 
 2. Traditional
@@ -411,7 +437,7 @@ functionName(Value1, Value2, ..);
 
 ## Encapsulation
 
-1. The process of wrapping property and function within a single unit is known as encapsulation. 
+The process of wrapping property and function within a single unit is known as encapsulation. 
 
 	- Note on alternative meanings
 
@@ -433,9 +459,11 @@ functionName(Value1, Value2, ..);
 	let person1 = new person('Git',21);
 	person1.add_Address('YorkU');
 	person1.getDetails();
+```
 
+Output:
 
-	Output:
+```
 	Name is Git, Address is: YorkU
 
 ```
@@ -443,9 +471,10 @@ functionName(Value1, Value2, ..);
 
 ## Inheritence
 
-1.  It is a concept in which some property and methods of an Object is being used by another Object.
+1. Concept: some, one, or all `property` and/or `method` of an Object is being used by another Object.
 
-2. Unlike most of the OOP languages where classes inherit classes, JavaScript Object inherits Object i.e. certain features (property and methods)of one object can be reused by other Objects. 
+2. _Unlike_ (most) OOP languages where _classes inherit classes_, in JavaScript an _Object inherits Object_ 
+	 - certain features (`property` and `method`) of one object can be _reused_ by other `Objects`. 
 
 
 ### Example
@@ -458,3 +487,5 @@ functionName(Value1, Value2, ..);
 
 
 ##### Thanks to geeksforgeeks.org for the helpful JavaScript information
+
+##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read
