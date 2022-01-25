@@ -20,11 +20,11 @@
 
 So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing(confusion inevitable).
 
-## **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)[^2]
+#### **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)[^2]
 
-[this]((https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming... 
+##### [this]((https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming... 
 	
-and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
+###### and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
 
 2. It is well-known for the development of web pages... but many non-browser environments also use it.
 	 - Get used to the word(s) `API`s
@@ -43,11 +43,12 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 		**Result:**
 
 > I totally know JavaScript: 
->> performs like the best programming language ever
-> I thought Java was short for JavaScript: 
->> why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
+	- performs like the best programming language ever
 
- This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project. A shared Group Project. With different files. And different ~~styles~~. No. We will `use strict` and follw `EC`
+> I thought Java was short for JavaScript: 
+	- why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
+
+This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project. A shared Group Project. With different files. And different ~~styles~~. No. We will `use strict` and follw `EC`
 
 
 ### What is JavaScript used for?
@@ -56,10 +57,8 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 - client side: how we interact with
 	- from client to server: `Node.js` is the best! (this is _debatable_ (not really) but it's what we will use... because... it is what I use ^.^ (and it is powerful server-side))
 - what else?
-	- art: `p5.js` 
-		- we use it
-	- machine learning: `ml5.js`
-		- you might use it
+	- art: `p5.js` (we use it)
+	- machine learning: `ml5.js` (you might use it)
 
 ### How can we use JavaScript?
 
@@ -72,7 +71,6 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 ## JavaScript: Standard Form
 
 ### Syntax
-
 ```JavaScript
 	<script type="text/javascript">
 	    // Your javaScript code
@@ -92,6 +90,7 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 	 - We could summarise a website as: a series of handled events, anticipated or not.
 	 - Can we make _only_ HTML websites? (yes but) 
 5. Interpreter Centered
+	 - We can get output _without_ using the compiler 
 
 
 ### JS in HTML Document
@@ -108,7 +107,7 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 		</script>
 	</head>
 	<body>
-		<!--<h2>JavaScript in Head</h2>-->
+		<h2>JavaScript in Head</h2>
 		<p id="demo" style="color:green;">interactive</p>
 		<button type="button" onclick="interact()">click it</button>
 	</body>
@@ -140,9 +139,9 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 	<center>
 		<body>
 			<h2>External JavaScript</h2>
-			<p id="demo">Geeks For Geeks.</p>
-			<button type="button" onclick="myFunction()">Try it</button>
-			<script src="myScript.js"></script>
+			<p id="demo">Building Interactive Systems</p>
+			<button type="button" onclick="myExternalFunction()">Try it</button>
+			<script src="external.js"></script>
 		</body>
 		<center>
 </html>
@@ -157,11 +156,10 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 2. Separate HTML and JavaScript code
 	 - SO? Easier to read and maintain
 
+
 ## Strict Mode
 
-
 ### What is this?
-
 
 ### Syntax
 
@@ -171,44 +169,40 @@ and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROW
 
 	myVariable = 1;
 ```
-
 Output:
 ```
 	Uncaught ReferenceError: a is not defined
 ```
-
 Example:
 ```
 	"use strict"; // Turn on strict mode.
 	let myVariable = 1;
 	delete myVariable; 
 ```
-
 Output: 
 ```
 Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 
 ```
+#### JavaScript provides the functionality where you can define a property of an object as deletable that qualifies the property to be deleted in strict mode.
 
->  JavaScript provides the functionality where you can define a property of an object as deletable that qualifies the property to be deleted in strict mode.
 
+### Key Features of `Strict` Mode
 
-### Key Features
-
-1. Useful when dealing with local v global variables. 
-	- Why? In JavaScript objects are variables: requires the keyword  ~~'var'~~, 'let', or 'const' to define one - and you **need** to define them!
+1. Useful when dealing with `local` v `global` variables. 
+	- Why? In JavaScript objects are variables: requires the keyword  ~~`var`~~, `let`, or `const` to define one - and you **need** to define them!
 	- Recall: `Uncaught ReferenceError: myVariable is not defined`
-	- ~~var~~ is outdated but you may still use it or come across it
+	- ~~`var`~~ is outdated but you may still use it or come across it
 2. Useful when handling deletions.
 	- Why? JavaScript provides the functionality where you can define a property of an object as _deletable_.
 	- So? This qualifies the property to be deleted in strict mode
 	- Recall: `Uncaught SyntaxError: Delete of an unqualified identifier in strict mode`
-3. Enforcing reserved keywords 
+3. Enforcing reserved `keywords` 
 
 
 ## Functions
 
-A function is a set of statements that take inputs, do some specific computation, and produces output. 
+A function is a set of statements that take inputs, do some specific computation(s), and produces output. 
 All functions:
 - start with the keyword `function`
 - followed by a uniquely chosen name `funtion uniqueName`
@@ -217,18 +211,18 @@ All functions:
 
 ### Syntax
 ```
-	function functionName(Parameter1, Parameter2, ..)
-	{
-	    // Function body
-	}
+function functionName(Parameter1, Parameter2, ..)
+{
+    // Function body
+}
 ```
 
 ### Defining the Function
 ```
-	function calcAddition(number1, number2)
-	{
-	    return number1 + number2;
-	}
+function calcAddition(number1, number2)
+{
+    return number1 + number2;
+}
 ```
 
 ### Calling the Function with (optional) Parameters
@@ -241,7 +235,7 @@ functionName(Value1, Value2, ..);
 ### Returning Information
 
 A function can (but is not required) to return some values using the keyword `return`
-	- basic syntax statment: `return value;`
+- basic syntax statment: `return value;`
 
 
 ## Features of an OOP
@@ -256,7 +250,7 @@ A function can (but is not required) to return some values using the keyword `re
 
 1. An Object is a unique entity that contains property and methods.
 2. The characteristics of an Object are called: Property, in Object-Oriented Programming and the actions are called methods. 
-	 - What about Methods? NOTE: A Method in javascript is a property of an object whose value is a function. 
+- What about Methods? NOTE: A Method in javascript is a property of an object whose value is a function. 
 3. An Object is an instance of a class. 
 
 
@@ -285,17 +279,13 @@ A function can (but is not required) to return some values using the keyword `re
 	console.log(person.getFunction());
 	console.log(person.phone_number.landline);
 ```
-
 Output:
 ```
 	The name of the person is Git Hub
 
 	6789
 ```
-
 Note: Git comes from returning ${person.first_name}; Hub comes from returning ${person.last_name}
-
-
 2. Object Constructor
 ```
 	//using a constructor
@@ -312,7 +302,6 @@ Note: Git comes from returning ${person.first_name}; Hub comes from returning ${
 	console.log(person1.first_name);
 	console.log(`${person2.first_name} ${person2.last_name}`);
 ```
-
 Output: 
 ```
 	First
@@ -320,7 +309,6 @@ Output:
 	Git Hub
 
 ```
-
 3. Object.create() method
 ```
 	// Object.create() example a
@@ -344,13 +332,11 @@ Output:
 
 	me.printIntroduction();
 ```
-
 Output: 
 ```
 	My name is 1720. Am I studying?: true
 
 ```
-
 
 ## Classes
 
@@ -379,7 +365,6 @@ Templates vs Instances == Classes vs Objects
 	console.log(bike2.maker); // Kawasaki
 	console.log(bike1.getDetails());
 ```
-
 Output:
 ```
 	Hayabusa
@@ -388,7 +373,6 @@ Output:
 
 	The name of the bike is Hyabusa.
 ```
-
 2. Traditional
 `code`
 
@@ -396,9 +380,7 @@ Output:
 ## Encapsulation
 
 The process of wrapping property and function within a single unit is known as encapsulation. 
-
-	- Note on alternative meanings
-
+- Note on alternative meanings
 ```
 	//encapsulation example
 	class person{
@@ -418,28 +400,24 @@ The process of wrapping property and function within a single unit is known as e
 	person1.add_Address('YorkU');
 	person1.getDetails();
 ```
-
 Output:
 ```
 	Name is Git, Address is: YorkU
 
 ```
 
-
 ## Inheritence
 
 1. Concept: some, one, or all `property` and/or `method` of an Object is being used by another Object.
 2. _Unlike_ (most) OOP languages where _classes inherit classes_, in JavaScript an _Object inherits Object_ 
-	 - certain features (`property` and `method`) of one object can be _reused_ by other `Objects`. 
+- certain features (`property` and `method`) of one object can be _reused_ by other `Objects`. 
 
 
 ### Example
 
 `code`
-
 1. Difference to other OOP Languages
 2. Method Overriding
-
 
 
 ##### [^1]: Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information
