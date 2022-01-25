@@ -1,4 +1,4 @@
-# JavaScript OOP[^1]
+# JavaScript OOP
 
 - [O]bject [O]riented [P]rogramming
 
@@ -22,7 +22,7 @@
 
 So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing(confusion inevitable).
 
-#### **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/) [^2]
+#### **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)
 
 ##### [this](https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming... 
 	
@@ -416,6 +416,6 @@ Name is Git, Address is: YorkU
 2. Method Overriding
 
 
-##### [^1]: Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information
+##### Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information
 
-##### [^2]: Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read
+##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read
