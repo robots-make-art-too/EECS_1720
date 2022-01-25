@@ -5,29 +5,63 @@
 
 ## Quick Introduction
 
- - server side
- - client side
+1. JavaScript is a lightweight, cross-platform, and interpreted scripting language. 
+	 - lightweight:
+ 	 - cross-platform:
+	 - interpreted:
+	 - scripting:
+
+>> FYI HTML: [H]yper [T]ext [M]arkup [L]anguage
+>> FYI CSS: [C]ascading [S]tyle [S]heets
+
+So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing(confusion inevitable).
 
 
- - internal JS - into the html 
- - external JS - separate file 
-
-### What
-
-
-### How
+**If we want anything to change on a webpage without reloading the entire page, we need JavaScript**(https://css-tricks.com/why-javascript-is-eating-html/) <- also useful in clarifying `imperative` v `declarative` programming ... and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
 
 ```
 	<script>
 	  // JavaScript Code
 	</script>
-
-
-<script type="text/javascript">
-    // Your javaScript code
-</script>
-
 ```
+2. It is well-known for the development of web pages... but many non-browser environments also use it.
+	 - Get used to the word(s) `API`s
+		 - [A]pplication [P]rogramming [I]nterface
+		 - EECS 1720 anyone?: _Building_ _Interactive_ _Systems_
+
+3. JavaScript is a dynamic language.
+	 - So? Each Javascript component is dynamic all the way from individual variables to the code itself. 
+
+4. WOW. With the help of JavaScript, you can:
+	 - Create variables on-the-go (during `runtime`)
+	 - Change their data-type
+	 - Create new functions
+	 - Replace existing logic
+
+		**Result:**
+>>> I totally know JavaScript: performs like the best programming language ever
+>>> I thought Java was short for JavaScript: why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
+
+ This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project. A shared Group Project. With different files. And different ~~styles~~. No. We will `use strict` and follw `EC`
+
+
+### What
+
+	- server side: allows interacting
+	- client side: how we interact with
+		- from client to server: Node.js is the best! (this is `debatable` (not really) but it's what we will use... because... it is what I use ^.^ (and it is powerful server-side))
+
+  - what else?
+		- art: p5.js
+		- machine learning: ml5.js
+
+
+### How
+
+ - internal JS: into the html `<script>` between tags `</script>`
+ 	 - <head> here </head> _or_ <body> here </body>
+ - external JS: link to separate file as an `extension.js`
+ 	 - <head> usually here </head>
 
 
 ## Standard Form
@@ -35,14 +69,30 @@
 
 ### Syntax
 
+```JavaScript
+	<script type="text/javascript">
+	    // Your javaScript code
+	</script>
+
+```
+
 
 ### Characteristics
 
-	1. Dynamically typed 
+1. Dynamically typed
+	 - accepts different data types over time
 
-	2. Case Sensitive Format
+2. Case Sensitive Format
+	 - CASe SeNSitivE != case sensitive
 
-	3. 
+3. Light Weight
+   - ? used everywhere a.k.a JavaScript is the support for all browsers
+
+4. Event Handling (including `throwing` errors and `catching` them)
+	 - All a website is can be summarised as: a series of handled events, anticipated or not.
+	 - Can we make _only_ HTML websites? 
+
+5. Interpreter Centered
 
 
 ### JS in HTML Document
@@ -87,14 +137,33 @@
 	</center>
 	</html>
 
-
 ```
 
 
-3. JavaScript from External Files `addmore.js`
+3. JavaScript from External Files `external.js`
 
+```JavaScript
+	<!DOCTYPE html>
+	<html>
+	<center>
+		<body>
+			<h2>External JavaScript</h2>
+			<p id="demo">Geeks For Geeks.</p>
+			<button type="button" onclick="myFunction()">Try it</button>
+			<script src="myScript.js"></script>
+		</body>
+		<center>
+</html>
+```
 
+### Benefits of External JavaScript
 
+1. Cached JavaScript files can speed up page loading
+	 - SO? Load these and decide:
+		[slow]https://www.dollartree.com/
+		[fast]
+2. Separate HTML and JavaScript code
+	 - SO? Easier to read and maintain
 
 ## Strict Mode
 
@@ -110,7 +179,7 @@
 
 	"use strict"; // Turn on strict mode.
 
-	a = 1;
+	myVariable = 1;
 
 	Output:
 
@@ -120,8 +189,8 @@
 Ex.
 
 	"use strict"; // Turn on strict mode.
-	let a = 1;
-	delete a; 
+	let myVariable = 1;
+	delete myVariable; 
 
 Output: 
 Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
@@ -132,11 +201,17 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 
 ### Key Features
 
-	1. useful when local . Global variables 
+1. Useful when dealing with local v global variables. 
+	- Why? In JavaScript objects are variables: requires the keyword  ~~'var'~~, 'let', or 'const' to define one - and you **need** to define them!
+	- Recall: `Uncaught ReferenceError: myVariable is not defined`
+	- ~~var~~ is outdated but you may still use it or come across it
 
-	2. Note: In JavaScript objects are variables: requires the keyword ‘let’ or ‘const’ to define one.
+2. Useful when handling deletions.
+	- Why? JavaScript provides the functionality where you can define a property of an object as _deletable_.
+	- So? This qualifies the property to be deleted in strict mode
+	- Recall: `Uncaught SyntaxError: Delete of an unqualified identifier in strict mode`
 
-	3. Enforcing reserved keywords 
+3. Enforcing reserved keywords 
 
 
 
@@ -174,10 +249,6 @@ functionName(Value1, Value2, ..);
 
 
 ### Returning Information
-
-
-
-
 
 
 
@@ -384,3 +455,6 @@ functionName(Value1, Value2, ..);
 1. Difference to other OOP Languages
 
 2. Method Overriding
+
+
+##### Thanks to geeksforgeeks.org for the helpful JavaScript information
