@@ -25,7 +25,7 @@
 
 ### JS in HTML Document
 
-`
+``` JavaScript
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,7 +41,7 @@
     <button type="button" onclick="interact()">click it</button>
 </body>
 </html>
-`
+```
 
 
 ## Strict Mode
