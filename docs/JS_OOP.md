@@ -1,4 +1,4 @@
-# JavaScript OOP 
+# JavaScript OOP[^1]
 
 	- [O]bject [O]riented [P]rogramming
 
@@ -7,7 +7,7 @@
 
 
 
-## Quick Introduction
+## Quick Introduction to JavaScript
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language. 
 	 - lightweight:
@@ -16,21 +16,16 @@
 	 - scripting:
 
 > FYI HTML: [H]yper [T]ext [M]arkup [L]anguage
-
 > FYI CSS: [C]ascading [S]tyle [S]heets
 
 So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing(confusion inevitable).
 
+## **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)[^2]
 
-**If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)
+[this]((https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming... 
+	
+and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
 
-	- also useful in clarifying `imperative` v `declarative` programming ... and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
-
-```
-	<script>
-	  // JavaScript Code
-	</script>
-```
 2. It is well-known for the development of web pages... but many non-browser environments also use it.
 	 - Get used to the word(s) `API`s
 		 - [A]pplication [P]rogramming [I]nterface
@@ -47,39 +42,34 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 		**Result:**
 
-> I totally know JavaScript: performs like the best programming language ever
-
-> I thought Java was short for JavaScript: why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
+> I totally know JavaScript: 
+>> performs like the best programming language ever
+> I thought Java was short for JavaScript: 
+>> why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
 
  This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project. A shared Group Project. With different files. And different ~~styles~~. No. We will `use strict` and follw `EC`
 
 
-### What
+### What is JavaScript used for?
 
 - server side: allows interacting
-
 - client side: how we interact with
-	
-	- from client to server: Node.js is the best! (this is `debatable` (not really) but it's what we will use... because... it is what I use ^.^ (and it is powerful server-side))
-
+	- from client to server: `Node.js` is the best! (this is _debatable_ (not really) but it's what we will use... because... it is what I use ^.^ (and it is powerful server-side))
 - what else?
-	- art: p5.js
-	- machine learning: ml5.js
+	- art: `p5.js` 
+		- we use it
+	- machine learning: `ml5.js`
+		- you might use it
+
+### How can we use JavaScript?
+
+- internal JS: into the html `<script>` between tags `</script>`
+	- `<head>` **here** `</head>` _or_ `<body>` **here** `</body>`
+- external JS: link to separate file as an `extension.js`
+	- `<head>` **usually here** `</head>`
 
 
-### How
-
- - internal JS: into the html `<script>` between tags `</script>`
-
- 	 - <head> here </head> _or_ <body> here </body>
-
- - external JS: link to separate file as an `extension.js`
-
- 	 - <head> usually here </head>
-
-
-## Standard Form
-
+## JavaScript: Standard Form
 
 ### Syntax
 
@@ -90,29 +80,23 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 ```
 
-
-### Characteristics
+### Characteristics of JavaScript
 
 1. Dynamically typed
 	 - accepts different data types over time
-
 2. Case Sensitive Format
 	 - CASe SeNSitivE != case sensitive
-
 3. Light Weight
    - ? used everywhere a.k.a JavaScript is the support for all browsers
-
-4. Event Handling (including `throwing` errors and `catching` them)
-	 - All a website is can be summarised as: a series of handled events, anticipated or not.
-	 - Can we make _only_ HTML websites? 
-
+4. Event Handling (includes `throwing` errors and `catching` them)
+	 - We could summarise a website as: a series of handled events, anticipated or not.
+	 - Can we make _only_ HTML websites? (yes but) 
 5. Interpreter Centered
 
 
 ### JS in HTML Document
 
 1. JavaScript in `<head>`
-
 ```JavaScript
 	<!DOCTYPE html>
 	<html>
@@ -130,10 +114,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	</body>
 	</html>
 ```
-
 2. JavaScript in `<body>`
-
-
 ```JavaScript
 	<!DOCTYPE html>
 	<html>
@@ -152,10 +133,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	</html>
 
 ```
-
-
 3. JavaScript from External Files `external.js`
-
 ```JavaScript
 	<!DOCTYPE html>
 	<html>
@@ -174,13 +152,9 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 1. Cached JavaScript files can speed up page loading
 	 - SO? Load these and decide:
-
 		 1. [slow](https://www.dollartree.com/)
-	
 		 2. [fast]
-
 2. Separate HTML and JavaScript code
-
 	 - SO? Easier to read and maintain
 
 ## Strict Mode
@@ -192,7 +166,6 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ### Syntax
 
 "use strict";
-
 ```
 	"use strict"; // Turn on strict mode.
 
@@ -200,14 +173,11 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ```
 
 Output:
-
 ```
 	Uncaught ReferenceError: a is not defined
 ```
 
-
-Ex.
-
+Example:
 ```
 	"use strict"; // Turn on strict mode.
 	let myVariable = 1;
@@ -215,7 +185,6 @@ Ex.
 ```
 
 Output: 
-
 ```
 Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 
@@ -230,21 +199,23 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 	- Why? In JavaScript objects are variables: requires the keyword  ~~'var'~~, 'let', or 'const' to define one - and you **need** to define them!
 	- Recall: `Uncaught ReferenceError: myVariable is not defined`
 	- ~~var~~ is outdated but you may still use it or come across it
-
 2. Useful when handling deletions.
 	- Why? JavaScript provides the functionality where you can define a property of an object as _deletable_.
 	- So? This qualifies the property to be deleted in strict mode
 	- Recall: `Uncaught SyntaxError: Delete of an unqualified identifier in strict mode`
-
 3. Enforcing reserved keywords 
 
 
 ## Functions
 
 A function is a set of statements that take inputs, do some specific computation, and produces output. 
+All functions:
+- start with the keyword `function`
+- followed by a uniquely chosen name `funtion uniqueName`
+- list of parameters `function uniqueName(param1, param2)`
+- enclosed statements with curlies.. `function uniqueName(param1, param2) { \\statements }`
 
 ### Syntax
-
 ```
 	function functionName(Parameter1, Parameter2, ..)
 	{
@@ -252,6 +223,7 @@ A function is a set of statements that take inputs, do some specific computation
 	}
 ```
 
+### Defining the Function
 ```
 	function calcAddition(number1, number2)
 	{
@@ -259,21 +231,17 @@ A function is a set of statements that take inputs, do some specific computation
 	}
 ```
 
+### Calling the Function with (optional) Parameters
 ```
 functionName(Value1, Value2, ..);
 
 ```
 
-### Definition
-
-
-### Calling and Parameters
-
-`code`
-
 
 ### Returning Information
 
+A function can (but is not required) to return some values using the keyword `return`
+	- basic syntax statment: `return value;`
 
 
 ## Features of an OOP
@@ -287,18 +255,14 @@ functionName(Value1, Value2, ..);
 ## Object
 
 1. An Object is a unique entity that contains property and methods.
-
 2. The characteristics of an Object are called: Property, in Object-Oriented Programming and the actions are called methods. 
-
-	- What about Methods? NOTE: A Method in javascript is a property of an object whose value is a function. 
-
+	 - What about Methods? NOTE: A Method in javascript is a property of an object whose value is a function. 
 3. An Object is an instance of a class. 
 
 
 ### Creating an Object
 
 1. Object Literal
-
 ```
 	//Defining object
 	let person = {
@@ -323,7 +287,6 @@ functionName(Value1, Value2, ..);
 ```
 
 Output:
-
 ```
 	The name of the person is Git Hub
 
@@ -334,7 +297,6 @@ Note: Git comes from returning ${person.first_name}; Hub comes from returning ${
 
 
 2. Object Constructor
-
 ```
 	//using a constructor
 	
@@ -352,7 +314,6 @@ Note: Git comes from returning ${person.first_name}; Hub comes from returning ${
 ```
 
 Output: 
-
 ```
 	First
 
@@ -360,10 +321,7 @@ Output:
 
 ```
 
-
 3. Object.create() method
-
-
 ```
 	// Object.create() example a
 	// simple object with some properties
@@ -388,7 +346,6 @@ Output:
 ```
 
 Output: 
-
 ```
 	My name is 1720. Am I studying?: true
 
@@ -397,12 +354,11 @@ Output:
 
 ## Classes
 
-	- Templates vs Instances == Classes vs Objects
+Templates vs Instances == Classes vs Objects
 
 ### Defining a Class
 
 1. ES6
-
 ```
 	// Defining class using es6
 	class Vehicle {
@@ -425,7 +381,6 @@ Output:
 ```
 
 Output:
-
 ```
 	Hayabusa
 
@@ -435,7 +390,6 @@ Output:
 ```
 
 2. Traditional
-
 `code`
 
 
@@ -466,7 +420,6 @@ The process of wrapping property and function within a single unit is known as e
 ```
 
 Output:
-
 ```
 	Name is Git, Address is: YorkU
 
@@ -476,7 +429,6 @@ Output:
 ## Inheritence
 
 1. Concept: some, one, or all `property` and/or `method` of an Object is being used by another Object.
-
 2. _Unlike_ (most) OOP languages where _classes inherit classes_, in JavaScript an _Object inherits Object_ 
 	 - certain features (`property` and `method`) of one object can be _reused_ by other `Objects`. 
 
@@ -486,11 +438,10 @@ Output:
 `code`
 
 1. Difference to other OOP Languages
-
 2. Method Overriding
 
 
 
-##### Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information
+##### [^1]: Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information
 
-##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read
+##### [^2]: Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read
