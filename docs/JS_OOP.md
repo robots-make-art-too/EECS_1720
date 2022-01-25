@@ -3,6 +3,10 @@
 	- [O]bject [O]riented [P]rogramming
 
 
+##### Still updating this file...
+
+
+
 ## Quick Introduction
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language. 
@@ -486,6 +490,7 @@ Output:
 2. Method Overriding
 
 
-##### Thanks to geeksforgeeks.org for the helpful JavaScript information
+
+##### Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information
 
 ##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read
