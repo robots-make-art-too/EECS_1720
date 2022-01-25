@@ -1,6 +1,6 @@
 # JavaScript OOP[^1]
 
-	- [O]bject [O]riented [P]rogramming
+- [O]bject [O]riented [P]rogramming
 
 
 ##### Still updating this file...
@@ -15,38 +15,40 @@
 	 - interpreted:
 	 - scripting:
 
-> FYI HTML: [H]yper [T]ext [M]arkup [L]anguage
-> FYI CSS: [C]ascading [S]tyle [S]heets
+
+#### FYI **HTML**: [H]yper [T]ext [M]arkup [L]anguage
+
+#### FYI CSS: [C]ascading [S]tyle [S]heets
 
 So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing(confusion inevitable).
 
-#### **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)[^2]
+#### **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/) [^2]
 
-##### [this]((https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming... 
+##### [this](https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming... 
 	
 ###### and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
 
 2. It is well-known for the development of web pages... but many non-browser environments also use it.
-	 - Get used to the word(s) `API`s
-		 - [A]pplication [P]rogramming [I]nterface
-		 - EECS 1720 anyone?: _Building_ _Interactive_ _Systems_
+	- Get used to the word(s) `API`s
+		- [A]pplication [P]rogramming [I]nterface
+		- EECS 1720 anyone?: _Building_ _Interactive_ _Systems_
 
 3. JavaScript is a dynamic language.
-	 - So? Each Javascript component is dynamic all the way from individual variables to the code itself. 
+	- So? Each Javascript component is dynamic all the way from individual variables to the code itself. 
 
 4. WOW. With the help of JavaScript, you can:
-	 - Create variables on-the-go (during `runtime`)
-	 - Change their data-type
-	 - Create new functions
-	 - Replace existing logic
+	- Create variables on-the-go (during `runtime`)
+	- Change their data-type
+	- Create new functions
+	- Replace existing logic
 
-		**Result:**
+	**Result:**
 
 > I totally know JavaScript: 
-	- performs like the best programming language ever
+- performs like the best programming language ever
 
 > I thought Java was short for JavaScript: 
-	- why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
+- why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!
 
 This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project. A shared Group Project. With different files. And different ~~styles~~. No. We will `use strict` and follw `EC`
 
@@ -75,7 +77,6 @@ This random behavior can _and will_ build up certain complexities... in our case
 	<script type="text/javascript">
 	    // Your javaScript code
 	</script>
-
 ```
 
 ### Characteristics of JavaScript
@@ -130,7 +131,6 @@ This random behavior can _and will_ build up certain complexities... in our case
 	    </body>
 	</center>
 	</html>
-
 ```
 3. JavaScript from External Files `external.js`
 ```JavaScript
@@ -150,11 +150,11 @@ This random behavior can _and will_ build up certain complexities... in our case
 ### Benefits of External JavaScript
 
 1. Cached JavaScript files can speed up page loading
-	 - SO? Load these and decide:
-		 1. [slow](https://www.dollartree.com/)
-		 2. [fast]
+	- SO? Load these and decide:
+  	1. [slow](https://www.dollartree.com/)
+		2. [fast]
 2. Separate HTML and JavaScript code
-	 - SO? Easier to read and maintain
+	- SO? Easier to read and maintain
 
 
 ## Strict Mode
@@ -165,24 +165,24 @@ This random behavior can _and will_ build up certain complexities... in our case
 
 "use strict";
 ```
-	"use strict"; // Turn on strict mode.
+"use strict"; // Turn on strict mode.
 
-	myVariable = 1;
+myVariable = 1;
 ```
 Output:
 ```
-	Uncaught ReferenceError: a is not defined
+Uncaught ReferenceError: a is not defined
 ```
 Example:
 ```
-	"use strict"; // Turn on strict mode.
-	let myVariable = 1;
-	delete myVariable; 
+"use strict"; // Turn on strict mode.
+
+let myVariable = 1;
+delete myVariable; 
 ```
 Output: 
 ```
 Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
-
 ```
 #### JavaScript provides the functionality where you can define a property of an object as deletable that qualifies the property to be deleted in strict mode.
 
@@ -228,7 +228,6 @@ function calcAddition(number1, number2)
 ### Calling the Function with (optional) Parameters
 ```
 functionName(Value1, Value2, ..);
-
 ```
 
 
@@ -258,84 +257,82 @@ A function can (but is not required) to return some values using the keyword `re
 
 1. Object Literal
 ```
-	//Defining object
-	let person = {
-	    first_name: 'Git',
-	    last_name: 'Hub',
+//Defining object
+let person = {
+    first_name: 'Git',
+    last_name: 'Hub',
 
-	    //method
-	    getFunction : function(){
-	        return (`The name of the person is
-	        ${person.first_name} ${person.last_name}`)
-	    },
+    //method
+    getFunction : function(){
+        return (`The name of the person is
+        ${person.first_name} ${person.last_name}`)
+    },
 
-	    //object within object
-	    phone_number : {
-	        mobile:'12345',
-	        landline:'6789'
-	        mobile2: 'ffgf'
-	    }
-	}
-	console.log(person.getFunction());
-	console.log(person.phone_number.landline);
+    //object within object
+    phone_number : {
+        mobile:'12345',
+        landline:'6789'
+        mobile2: 'ffgf'
+    }
+}
+console.log(person.getFunction());
+console.log(person.phone_number.landline);
 ```
 Output:
 ```
-	The name of the person is Git Hub
+The name of the person is Git Hub
 
-	6789
+6789
 ```
 Note: Git comes from returning ${person.first_name}; Hub comes from returning ${person.last_name}
 2. Object Constructor
 ```
-	//using a constructor
-	
-	function person(first_name,last_name){
-		this.first_name = first_name;
-		this.last_name = last_name;
-	}
-	
-	//creating new instances of person object
-	let person1 = new person('First','Last');
-	let person2 = new person('Git','Hub');
+//using a constructor
 
-	console.log(person1.first_name);
-	console.log(`${person2.first_name} ${person2.last_name}`);
+function person(first_name,last_name){
+	this.first_name = first_name;
+	this.last_name = last_name;
+}
+
+//creating new instances of person object
+let person1 = new person('First','Last');
+let person2 = new person('Git','Hub');
+
+console.log(person1.first_name);
+console.log(`${person2.first_name} ${person2.last_name}`);
 ```
 Output: 
 ```
-	First
+First
 
-	Git Hub
-
+Git Hub
 ```
 3. Object.create() method
 ```
-	// Object.create() example a
-	// simple object with some properties
+// Object.create() example a
+// simple object with some properties
 
-	const coder = {
-	    isStudying : false,
-	    printIntroduction : function(){
-	        console.log(`My name is ${this.name}. Am I
-	        studying?: ${this.isStudying}.`)
-	    }
-	}
-	// Object.create() method
-	const me = Object.create(coder);
+const coder = {
+    isStudying : false,
+    printIntroduction : function(){
+        console.log(`My name is ${this.name}. Am I 
+        studying?: ${this.isStudying}.`)
+    }
+}
+// Object.create() method
+const me = Object.create(coder);
 
-	// "name" is a property set on "me", but not on "coder"
-	me.name = '1720';
+// "name" is a property set on "me", but not on "coder"
+me.name = '1720';
 
-	// Inherited properties can be overwritten
-	me.isStudying = true;
+// Inherited properties can be overwritten
+me.isStudying = true;
 
-	me.printIntroduction();
+me.printIntroduction();
 ```
 Output: 
 ```
-	My name is 1720. Am I studying?: true
-
+My name is 1720. Am I studying?: true
 ```
 
 ## Classes
@@ -346,32 +343,32 @@ Templates vs Instances == Classes vs Objects
 
 1. ES6
 ```
-	// Defining class using es6
-	class Vehicle {
+// Defining class using es6
+class Vehicle {
 	constructor(name, maker, engine) {
-	    this.name = name;
-	    this.maker = maker;
-	    this.engine = engine;
+    this.name = name;
+    this.maker = maker;
+    this.engine = engine;
 	}
 	getDetails(){
-	    return (`The name of the bike is ${this.name}.`)
+    return (`The name of the bike is ${this.name}.`)
 	}
-	}
-	// Making object with the help of the constructor
-	let bike1 = new Vehicle('Hayabusa', 'Suzuki', '1340cc');
-	let bike2 = new Vehicle('Ninja', 'Kawasaki', '998cc');
+}
+// Making object with the help of the constructor
+let bike1 = new Vehicle('Hayabusa', 'Suzuki', '1340cc');
+let bike2 = new Vehicle('Ninja', 'Kawasaki', '998cc');
 
-	console.log(bike1.name); // Hayabusa
-	console.log(bike2.maker); // Kawasaki
-	console.log(bike1.getDetails());
+console.log(bike1.name); // Hayabusa
+console.log(bike2.maker); // Kawasaki
+console.log(bike1.getDetails());
 ```
 Output:
 ```
-	Hayabusa
+Hayabusa
 
-	Kawasaki
+Kawasaki
 
-	The name of the bike is Hyabusa.
+The name of the bike is Hyabusa.
 ```
 2. Traditional
 `code`
@@ -382,35 +379,34 @@ Output:
 The process of wrapping property and function within a single unit is known as encapsulation. 
 - Note on alternative meanings
 ```
-	//encapsulation example
-	class person{
-	    constructor(name,id){
-	        this.name = name;
-	        this.id = id;
-	    }
-	    add_Address(add){
-	        this.add = add;
-	    }
-	    getDetails(){
-	        console.log(`Name is ${this.name},Address is: ${this.add}`);
-	    }
-	}
+//encapsulation example
+class person{
+    constructor(name,id){
+        this.name = name;
+        this.id = id;
+    }
+    add_Address(add){
+        this.add = add;
+    }
+    getDetails(){
+        console.log(`Name is ${this.name},Address is: ${this.add}`);
+    }
+}
 
-	let person1 = new person('Git',21);
-	person1.add_Address('YorkU');
-	person1.getDetails();
+let person1 = new person('Git',21);
+person1.add_Address('YorkU');
+person1.getDetails();
 ```
 Output:
 ```
-	Name is Git, Address is: YorkU
-
+Name is Git, Address is: YorkU
 ```
 
 ## Inheritence
 
 1. Concept: some, one, or all `property` and/or `method` of an Object is being used by another Object.
 2. _Unlike_ (most) OOP languages where _classes inherit classes_, in JavaScript an _Object inherits Object_ 
-- certain features (`property` and `method`) of one object can be _reused_ by other `Objects`. 
+	- certain features (`property` and `method`) of one object can be _reused_ by other `Objects`. 
 
 
 ### Example
