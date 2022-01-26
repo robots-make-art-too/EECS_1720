@@ -258,10 +258,10 @@ A function can (but is not required) to return some values using the keyword `re
 1. An `Object` is a unique entity that contains `Property` and `Method`
 2. The _characteristics_ of an `Object` are properties
 3. The _actions_ of an `Object` are methods   
-	 - NOTE: A `Method` in JavaScript
-	 	 - is a `Property` of an `Object` 
-	 	 	 - whose `Value` 
-	 	 	 	 - is a `Function`
+	  - NOTE: A `Method` in JavaScript
+	 	  - is a `Property` of an `Object` 
+	 			- whose `Value` 
+	 				- is a `Function`
 4. An Object is an _instance_ of a `Class`
 
 psst: pretty much everything is an Object in JavaScript (yes, even functions, arrays, and strings!)
