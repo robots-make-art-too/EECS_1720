@@ -64,4 +64,4 @@ Maybe I can help you _think_ about aesthetic [concepts](https://blog.homeforfict
 
 4. Can I get a list of Chrome [variables](https://www.geeksforgeeks.org/view-the-list-of-all-variables-in-google-chrome-console-using-javascript/?ref=rp)?
 - In general you should be _careful_ with concepts like asking for **ALL OF THE EVERYTHING** 
-	- if implemented inefficently... things can freeze!
+	- if implemented inefficiently... things can freeze!
