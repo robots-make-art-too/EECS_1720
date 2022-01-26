@@ -92,7 +92,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ### JS in HTML Document
 
 1. JavaScript in `<head>` 
- 
+
 ```HTML
 	<!DOCTYPE html>
 	<html>
@@ -105,8 +105,8 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	</head>
 	<body>
 		<h2>JavaScript in Head</h2>
-		<p id="demo" style="color:green;">interactive</p>
-		<button type="button" onclick="interact()">click it</button>
+		<p id="demo" style="color:green;">Interactive</p>
+		<button type="button" onclick="interact()">Click it</button>
 	</body>
 	</html>
 ```  
@@ -119,11 +119,11 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	<center>
 	    <body>
 	        <h2>JavaScript in Body</h2>
-	        <p id="demo">Interactive.</p>
-	        <button type="button" onclick="interact()">Try it</button>
+	        <p id='demo'>Interactive</p>
+	        <button type='button' onclick='interact()'>Try it</button>
 	        <script>
 	            function interact() {
-	            	document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
+	            	document.getElementById('demo').innerHTML = 'Welcome to Building Interactive Systems';
 	            }
 	        </script>
 	    </body>
@@ -133,14 +133,14 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 3. JavaScript from External Files `external.js`  
 
-```HTML
+```JavaScript
 	<!DOCTYPE html>
 	<html>
 	<center>
 		<body>
 			<h2>External JavaScript</h2>
 			<p id="demo">Building Interactive Systems</p>
-			<button type="button" onclick="myExternalFunction()">Try it</button>
+			<button type="button" onclick="myExternalFunction()">Still here!</button>;
 			<script src="external.js"></script>
 		</body>
 		<center>
