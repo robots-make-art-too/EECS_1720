@@ -108,7 +108,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
       </head>
       <body>
         <h2>JavaScript in Head</h2>
-        <p id="demo" style="color:green;">Interactive</p>
+        <p id="demo" style="color:green;">Is Interactive?</p>
         <button type="button" onclick="interact()">Click it</button>
       </body>
     </html>
@@ -122,11 +122,11 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
       <center>
         <body>
           <h2>JavaScript in Body</h2>
-          <p id="demo">Interactive</p>
+          <p id="demo">Is Interactive?</p>
           <button type="button" onclick="interact()">Try it</button>
           <script>
             function interact() {
-              document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
+              document.getElementById("demo").innerHTML="Welcome to Building Interactive Systems";
             }
           </script>
         </body>
@@ -142,8 +142,8 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
       <center>
         <body>
           <h2>External JavaScript</h2>
-          <p id="demo">Building Interactive Systems</p>
-          <button type="button" onclick="myExternalFunction()">Still here!</button>;
+          <p id="demo">Is Interactive?</p>
+          <button type="button" onclick="interact()">Push it</button>;
           <script src="external.js"></script>
         </body>
       </center>
