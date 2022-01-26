@@ -92,6 +92,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ### JS in HTML Document
 
 1. JavaScript in `<head>`  
+
 ```HTML
 	<!DOCTYPE html>
 	<html>
@@ -109,7 +110,9 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	</body>
 	</html>
 ```
+
 2. JavaScript in `<body>` 
+
 ```HTML
 	<!DOCTYPE html>
 	<html>
@@ -127,7 +130,9 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	</center>
 	</html>
 ```  
+
 3. JavaScript from External Files `external.js` 
+
 ```HTML
 	<!DOCTYPE html>
 	<html>
@@ -139,7 +144,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 			<script src="external.js"></script>
 		</body>
 		<center>
-</html>
+	</html>
 ```  
 
 ### Benefits of External JavaScript
