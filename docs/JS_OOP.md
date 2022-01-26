@@ -9,7 +9,7 @@
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language.  
    - lightweight: low memory usage
-   - cross-platform: can run on multiple frameworks, operating systems, machine architecture [^1]
+   - cross-platform: can run on multiple frameworks, operating systems, machine architecture[^1].
    - interpreted: debugging at run-time, can be modified while running, code is evaluated line-by-line
    - scripting: no scope, connects one language to another
      - scripting languages are a subset of programming languages (all scripting languages are programming languages but not all programming languages are scripting languages)
@@ -108,7 +108,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
   </head>
   <body>
     <h2>JavaScript in Head</h2>
-    <p id="demo" style="color:green;">Interactive</p>
+    <p id="demo" style="color:green;">Building Interactive Systems</p>
     <button type="button" onclick="interact()">Click it</button>
   </body>
 </html>
@@ -122,11 +122,11 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
   <center>
     <body>
       <h2>JavaScript in Body</h2>
-      <p id="demo">Interactive</p>
+      <p id="demo">Building Interactive Systems</p>
       <button type="button" onclick="interact()">Try it</button>
       <script>
         function interact() {
-          document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
+          document.getElementById("demo").innerHTML="Welcome to Building Interactive Systems";
         }
       </script>
     </body>
@@ -143,7 +143,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
     <body>
       <h2>External JavaScript</h2>
       <p id="demo">Building Interactive Systems</p>
-      <button type="button" onclick="myExternalFunction()">Still here!</button>;
+      <button type="button" onclick="interact()">Push it</button>
       <script src="external.js"></script>
     </body>
   </center>
@@ -154,7 +154,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 ### Benefits of External JavaScript
 
-1. Cached JavaScript files can speed up page loading. Want to know more? [^2] 
+1. Cached JavaScript files can speed up page loading. Want to know more?[^2]. 
    - [what exactly is website speed?](https://www.websitebuilderexpert.com/building-websites/website-load-time-statistics/)
    - So? Load these and decide (hint: open b after a... is a still loading?):
      1. [slow](https://www.dollartree.com/)  
@@ -696,8 +696,10 @@ In the example above both `Object` _student_ and `Object` _person_ have the same
 
 ##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read  
 
-[^1] https://www.sciencedirect.com/topics/computer-science/computer-architecture
-[^2] https://backlinko.com/page-speed-stats
+[^1]: https://www.sciencedirect.com/topics/computer-science/computer-architecture
+
+[^2]: https://backlinko.com/page-speed-stats
 
 https://www.zdnet.com/article/the-fastest-websites-on-the-internet-today/
+
 https://financialpost.com/personal-finance/business-essentials/the-coding-industry-in-canada-is-growing-rapidly
