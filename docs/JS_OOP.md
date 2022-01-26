@@ -283,12 +283,13 @@ Just include the following where relevant (whole file? individual method?)
 
 A function is a set of statements that takes input(s), does some specific computation(s), and produces output. 
 
-All functions:  
+All functions*:  
 - start with the keyword: `function`  
 - followed by a uniquely chosen name: `funtion uniqueName`  
 - list of parameters: `function uniqueName(param1, param2)`  
 - enclosed statements with curlies..: `function uniqueName(param1, param2) { \\statements }` 
 
+##### *ALL for our puposes at this time
 
 ### General Function Syntax 
 
