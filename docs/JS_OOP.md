@@ -69,9 +69,9 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ### Syntax
 
 ```JavaScript
-	<script type="text/javascript">
-	    // Your javaScript code
-	</script>
+<script type="text/javascript">
+	// Your javaScript code
+</script>
 ```  
 
 ### Characteristics of JavaScript
@@ -91,8 +91,8 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 ### JS in HTML Document
 
-1. JavaScript in `<head>`  
-
+1. JavaScript in `<head>` 
+ 
 ```HTML
 	<!DOCTYPE html>
 	<html>
@@ -109,7 +109,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 		<button type="button" onclick="interact()">click it</button>
 	</body>
 	</html>
-```
+```  
 
 2. JavaScript in `<body>` 
 
@@ -131,7 +131,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	</html>
 ```  
 
-3. JavaScript from External Files `external.js` 
+3. JavaScript from External Files `external.js`  
 
 ```HTML
 	<!DOCTYPE html>
@@ -149,10 +149,11 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 ### Benefits of External JavaScript
 
-1. Cached JavaScript files can speed up page loading  
+1. Cached JavaScript files can speed up page loading. Want to know more? [^1][^2] 
+	- [what exactly is website speed?](https://www.websitebuilderexpert.com/building-websites/website-load-time-statistics/)
 	- SO? Load these and decide:  
   	1. [slow](https://www.dollartree.com/)  
-		2. [fast]  
+		2. [fast]()
 2. Separate HTML and JavaScript code  
 	- SO? Easier to read and maintain  
 
@@ -164,33 +165,43 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ### Syntax
 
 "use strict";  
+
 ```
 "use strict"; // Turn on strict mode.
 
 myVariable = 1;
 ```  
+
 Output:  
+
 ```
 Uncaught ReferenceError: a is not defined
 ```  
-Example:  
+
+Example:
+
 ```
 "use strict"; // Turn on strict mode.
 
 let myVariable = 1;
 delete myVariable; 
 ```  
-Output:   
+
+Output:  
+
 ```
 Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 ```  
-#### JavaScript provides the functionality where you can define a property of an object as deletable that qualifies the property to be deleted in strict mode.
+
+(what is unqualified?)
+
+#### JavaScript provides the functionality where you can define a `property` of an object as `deletable` that _qualifies the property to be deleted_ in strict mode.
 
 
 ### Key Features of `Strict` Mode
 
 1. Useful when dealing with `local` v `global` variables.   
-	- Why? In JavaScript objects are variables: requires the keyword  ~~`var`~~, `let`, or `const` to define one - and you **need** to define them!  
+	- Why? In JavaScript objects are variables: requires the keyword  ~~`var`~~, `let`, or `const` to define one (and you **need** to define them!)
 	- Recall: `Uncaught ReferenceError: myVariable is not defined`  
 	- ~~`var`~~ is outdated but you may still use it or come across it  
 2. Useful when handling deletions.  
@@ -202,7 +213,8 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 
 ## Functions
 
-A function is a set of statements that take inputs, do some specific computation(s), and produces output.   
+A function is a set of statements that take inputs, do some specific computation(s), and produces output. 
+
 All functions:  
 - start with the keyword `function`  
 - followed by a uniquely chosen name `funtion uniqueName`  
@@ -251,14 +263,16 @@ A function can (but is not required) to return some values using the keyword `re
 ## Object
 
 1. An Object is a unique entity that contains property and methods.  
-2. The characteristics of an Object are called: Property, in Object-Oriented Programming and the actions are called methods.   
-	 - What about Methods? NOTE: A Method in javascript is a property of an object whose value is a function.   
-3. An Object is an instance of a class.   
+2. The _characteristics_ of an `Object` are `Properties`
+3. The _actions_ of an `Object` are `Methods`   
+	 - NOTE: A `method` in JavaScript is a `property` of an `object` whose `value` is a `function`.   
+3. An Object is an _`instance of a class`_.   
 
 
 ### Creating an Object
 
 1. Object Literal  
+
 ```
 //Defining object
 let person = {
@@ -281,14 +295,19 @@ let person = {
 console.log(person.getFunction());
 console.log(person.phone_number.landline);
 ```  
+
 Output:  
+
 ```
 The name of the person is Git Hub
 
 6789
 ```  
-Note: Git comes from returning ${person.first_name}; Hub comes from returning ${person.last_name}  
-2. Object Constructor  
+
+Note: The name 'Git' comes from returning ${person.first_name}; 'Hub' comes from returning ${person.last_name}  
+
+2. Object Constructor 
+
 ```
 //using a constructor
 
@@ -303,14 +322,18 @@ let person2 = new person('Git','Hub');
 
 console.log(person1.first_name);
 console.log(`${person2.first_name} ${person2.last_name}`);
-```  
+``` 
+
 Output:   
+
 ```
 First
 
 Git Hub
 ```  
+
 3. Object.create() method  
+
 ```
 // Object.create() example a
 // simple object with some properties
@@ -333,7 +356,9 @@ me.isStudying = true;
 
 me.printIntroduction();
 ```  
+
 Output:   
+
 ```
 My name is 1720. Am I studying?: true
 ```  
@@ -422,3 +447,6 @@ Name is Git, Address is: YorkU
 ##### Thanks to [gfg](geeksforgeeks.org) for the helpful JavaScript information  
 
 ##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read  
+
+[^1] https://www.websitebuilderexpert.com/building-websites/website-load-time-statistics/
+[^2] https://backlinko.com/page-speed-stats
