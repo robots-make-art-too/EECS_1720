@@ -17,9 +17,9 @@ Does it matter which [Browser](https://developer.mozilla.org/en-US/docs/Mozilla/
 
 ### manifest.json
 
-[Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
+- [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
 
-[Chrome](https://developer.chrome.com/docs/extensions/mv3/manifest/)
+- [Chrome](https://developer.chrome.com/docs/extensions/mv3/manifest/)
 
 
 ### Permissions
@@ -57,13 +57,12 @@ It is like adding your `external.js` file only with many more pre-defined functi
 
 ## Some _specific_ questions you may be asking?
 
-Can I find a use for _the whole `HTML` document_, as a [sting](https://www.geeksforgeeks.org/how-to-get-the-entire-html-document-as-a-string-in-javascript/?ref=rp)?
+1. Can I find a use for _the whole `HTML` document_, as a [sting](https://www.geeksforgeeks.org/how-to-get-the-entire-html-document-as-a-string-in-javascript/?ref=rp)?
 
-Do I need to check if this _JavaScript `Object`_ is a [`DOM`](https://www.geeksforgeeks.org/how-to-check-a-javascript-object-is-a-dom-object/?ref=rp) `Object`?
+2. Do I need to check if this _JavaScript `Object`_ is a [`DOM`](https://www.geeksforgeeks.org/how-to-check-a-javascript-object-is-a-dom-object/?ref=rp) `Object`?
 
-What if I want to do something with _the files_, do I need to know the [file extensions](https://www.geeksforgeeks.org/how-to-get-file-extensions-using-javascript/?ref=gcse)?
+3. What if I want to do something with _the files_, do I need to know the [file extensions](https://www.geeksforgeeks.org/how-to-get-file-extensions-using-javascript/?ref=gcse)?
 
-
-Can I get a list of Chrome [variables](https://www.geeksforgeeks.org/view-the-list-of-all-variables-in-google-chrome-console-using-javascript/?ref=rp)?
+4. Can I get a list of Chrome [variables](https://www.geeksforgeeks.org/view-the-list-of-all-variables-in-google-chrome-console-using-javascript/?ref=rp)?
 - In general you should be _careful_ with concepts like asking for **ALL OF THE EVERYTHING** 
 	- if implemented inefficently... things can freeze!
