@@ -700,8 +700,10 @@ In the example above both `Object` _student_ and `Object` _person_ have the same
 ##### Also thanks to this [Mike](https://css-tricks.com/why-javascript-is-eating-html/) for general HTML, CSS, JS, HTML-in-JS, JS-in-HTML, and other things you'll probably want to read  
 
 [^1]: https://www.sciencedirect.com/topics/computer-science/computer-architecture
+
 [^2]: https://backlinko.com/page-speed-stats
 
 https://www.zdnet.com/article/the-fastest-websites-on-the-internet-today/
+
 https://financialpost.com/personal-finance/business-essentials/the-coding-industry-in-canada-is-growing-rapidly
 
