@@ -459,7 +459,8 @@ psst: pretty much everything is an Object in JavaScript (yes, even functions, ar
 ##
 
 (HEY! maybe you have noticed how _useful_ `console.log()` is?)
--(Maybe you also noticed how `F12` might solve all problems?)
+
+- (Maybe you also noticed how `F12` might solve all problems?)
 
 
 ##
