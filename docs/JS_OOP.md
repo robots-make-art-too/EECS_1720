@@ -8,10 +8,10 @@
 ## Quick Introduction to JavaScript
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language.  
-	 - lightweight:  
- 	 - cross-platform:  
-	 - interpreted:  
-	 - scripting:  
+	 - lightweight:  ...
+ 	 - cross-platform:  ...
+	 - interpreted:  ...
+	 - scripting:  ...
 2. It is well-known for the development of web pages... but many non-browser environments also use it.  
 	- Get used to the word(s) `API`s  
 		- [A]pplication [P]rogramming [I]nterface  
