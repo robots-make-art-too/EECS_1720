@@ -9,7 +9,7 @@
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language.  
 	 - lightweight:  ...
- 	 - cross-platform:  ...
+	 - cross-platform:  ...
 	 - interpreted:  ...
 	 - scripting:  ...
 2. It is well-known for the development of web pages... but many non-browser environments also use it.  
@@ -92,7 +92,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 ### JS in HTML Document
 
 1. JavaScript in `<head>`  
-```JavaScript
+```HTML
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -108,9 +108,9 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 		<button type="button" onclick="interact()">click it</button>
 	</body>
 	</html>
-```  
-2. JavaScript in `<body>`  
-```JavaScript
+```
+2. JavaScript in `<body>` 
+```HTML
 	<!DOCTYPE html>
 	<html>
 	<center>
@@ -120,15 +120,15 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	        <button type="button" onclick="interact()">Try it</button>
 	        <script>
 	            function interact() {
-	            document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
+	            	document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
 	            }
 	        </script>
 	    </body>
 	</center>
 	</html>
 ```  
-3. JavaScript from External Files `external.js`  
-```JavaScript
+3. JavaScript from External Files `external.js` 
+```HTML
 	<!DOCTYPE html>
 	<html>
 	<center>
