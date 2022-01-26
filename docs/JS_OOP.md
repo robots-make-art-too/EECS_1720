@@ -412,7 +412,7 @@ psst: pretty much everything is an Object in JavaScript (yes, even functions, ar
   
    ```
    First
-	 Git Hub
+   Git Hub
    ```  
 
 3. Object.create() method  
