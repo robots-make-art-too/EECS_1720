@@ -33,6 +33,7 @@ Best by example? These go together:
 
 > This concept carries through to other actions you may be interested in and so need to ask permissions for.
 
+###
 
 ### Namespace! A key difference
 
@@ -44,14 +45,12 @@ Best by example? These go together:
 ## OK so what about other ".js" stuff?
 
 
-Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?ref=lbp) to your extension? 
-
-It is like adding your `external.js` file only with many more pre-defined function options for drawing, images, sound etc.
+Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?ref=lbp) to your extension? (It is like adding your `external.js` file only with many more pre-defined function options for drawing, images, sound etc.)
 
 
 ### Did you want an example of aesthetic + technical?
 
-[aesthetic](https://blog.homeforfiction.com/2020/02/20/book-worming-party-literature-meets-drawing/)
+Maybe I can help you _think_ about aesthetic [concepts](https://blog.homeforfiction.com/2020/02/20/book-worming-party-literature-meets-drawing/)?
 
 ##
 
