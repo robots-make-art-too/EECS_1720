@@ -37,7 +37,7 @@ Best by example? These go together:
 
 ### Namespace! A key difference
 
-[incompatible?](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities)?
+Switching browsers? Unsure what works where? See if what you are doing is [incompatible](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities)?
 
 
 ##
