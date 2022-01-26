@@ -56,7 +56,7 @@ Maybe I can help you _think_ about aesthetic [concepts](https://blog.homeforfict
 
 ## Some _specific_ questions you may be asking?
 
-1. Can I find a use for _the whole `HTML` document_, as a [sting](https://www.geeksforgeeks.org/how-to-get-the-entire-html-document-as-a-string-in-javascript/?ref=rp)?
+1. Can I find a use for _the whole `HTML` document_, as a [string](https://www.geeksforgeeks.org/how-to-get-the-entire-html-document-as-a-string-in-javascript/?ref=rp)?
 
 2. Do I need to check if this _JavaScript `Object`_ is a [`DOM`](https://www.geeksforgeeks.org/how-to-check-a-javascript-object-is-a-dom-object/?ref=rp) `Object`?
 
