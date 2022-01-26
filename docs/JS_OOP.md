@@ -5,6 +5,7 @@
 
 ##### Still updating this file...
 
+
 ## Quick Introduction to JavaScript
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language.  
@@ -15,7 +16,7 @@
 2. It is well-known for the development of web pages... but many non-browser environments also use it.  
 	- Get used to the word(s) `API`s  
 		- [A]pplication [P]rogramming [I]nterface  
-		- EECS 1720 anyone?: _Building_ _Interactive_ _Systems_  
+		- EECS 1720 anyone?: _Building Interactive Systems_  
 3. JavaScript is a dynamic language.  
 	- So? Each Javascript component is dynamic all the way from individual variables to the code itself.  
 4. WOW. With the help of JavaScript, you can:  
@@ -26,26 +27,25 @@
 
 	**Result:**  
 
-> I totally know JavaScript:  
+> I totally know JavaScript:
 - performs like the best programming language ever  
 
-> I thought Java was short for JavaScript:  
+> I thought Java was short for JavaScript:
 - why do I get different random errors for the SAME LINE OF CODE!!!!!!!!!  
 
-This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project.  A shared Group Project.  With different files.  And different ~~styles~~.  No.  We will `use strict` and follow `ES6` [what is this?](https://www.educba.com/what-is-es6/)
+This random behavior can _and will_ build up certain complexities... in our case?  **Especially** if using it in a project.  A shared Group Project.  With different files.  And different ~~styles~~.  
 
-#### FYI 
+No.  
+
+We will `use strict` and follow `ES6` [what is this?](https://www.educba.com/what-is-es6/)
+
+
+FYI: 
 
 **HTML**: [H]yper [T]ext [M]arkup [L]anguage  
 **CSS**: [C]ascading [S]tyle [S]heets  
 
-So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing (confusion inevitable).  
-
-#### **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)  
-
-##### [this](https://css-tricks.com/why-javascript-is-eating-html/) is also useful in clarifying `imperative` v `declarative` programming...  
-	
-###### and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_  
+So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing (confusion inevitable). **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)... that link is useful in clarifying `imperative` v `declarative` programming... and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_  
 
 ### What is JavaScript used for?  
 
@@ -58,10 +58,11 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 ### How can we use JavaScript?
 
-- internal JS: into the html `<script>` between tags `</script>`  
+- internal JavaScript: into the html `<script>` between tags `</script>`  
 	- `<head>` **here** `</head>` _or_ `<body>` **here** `</body>`  
-- external JS: link to separate file as an `extension.js`  
+- external JavaScript: link to separate file as an `extension.js`  
 	- `<head>` **usually here** `</head>`  
+
 
 
 ## JavaScript: Standard Form
@@ -89,31 +90,17 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	 - We can get output _without_ using the compiler   
 
 
-### JS in HTML Document
+### JavaScript in an HTML Document
 
 1. JavaScript in `<head>` 
 
-```HTML
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<script>
-			function interact() {
-				document.getElementById("demo").innerHTML = "Welcome to Building Interactive Systems";
-			}
-		</script>
-	</head>
-	<body>
-		<h2>JavaScript in Head</h2>
-		<p id="demo" style="color:green;">Interactive</p>
-		<button type="button" onclick="interact()">Click it</button>
-	</body>
-	</html>
+```JavaScript
+	<!DOCTYPE html><html><head><script>function interact(){document.getElementById("demo").innerHTML="Welcome to Building Interactive Systems";}</script></head><body><h2>JavaScript in Head</h2><p id="demo" style="color:green;">Interactive</p><button type="button" onclick="interact()">Click it</button></body></html>
 ```  
 
 2. JavaScript in `<body>` 
 
-```HTML
+```JavaScript
 	<!DOCTYPE html>
 	<html>
 	<center>
@@ -153,9 +140,10 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 	- [what exactly is website speed?](https://www.websitebuilderexpert.com/building-websites/website-load-time-statistics/)
 	- SO? Load these and decide:  
   	1. [slow](https://www.dollartree.com/)  
-		2. [fast]()
+		2. [fast](link.here)
 2. Separate HTML and JavaScript code  
 	- SO? Easier to read and maintain  
+
 
 
 ## Strict Mode
@@ -195,8 +183,6 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 
 (what is unqualified?)
 
-#### JavaScript provides the functionality where you can define a `property` of an object as `deletable` that _qualifies the property to be deleted_ in strict mode.
-
 
 ### Key Features of `Strict` Mode
 
@@ -211,17 +197,19 @@ Uncaught SyntaxError: Delete of an unqualified identifier in strict mode
 3. Enforcing reserved `keywords`   
 
 
+
 ## Functions
 
-A function is a set of statements that take inputs, do some specific computation(s), and produces output. 
+A function is a set of statements that take inputs, do some specific computation(s), and produce output. 
 
 All functions:  
 - start with the keyword `function`  
 - followed by a uniquely chosen name `funtion uniqueName`  
 - list of parameters `function uniqueName(param1, param2)`  
-- enclosed statements with curlies.. `function uniqueName(param1, param2) { \\statements }`  
+- enclosed statements with curlies.. `function uniqueName(param1, param2) { \\statements }` 
 
-### Syntax 
+
+### General Function Syntax 
 
 ```
 function functionName(Parameter1, Parameter2, ..)
@@ -232,6 +220,8 @@ function functionName(Parameter1, Parameter2, ..)
 
 ### Defining the Function
 
+Before we can use a function, we have to... define it. All function definitions follow the same basic format. _Remember the `external.js` file?_ That file is just three lines, a function definition, like this one:
+
 ```
 function calcAddition(number1, number2)
 {
@@ -240,6 +230,8 @@ function calcAddition(number1, number2)
 ```  
 
 ### Calling the Function with (optional) Parameters
+
+`Calling` a function means we want to _use_ it. Now. If we _defined the function with parameters_, now is a good time to include those:
 
 ```
 functionName(Value1, Value2, ..);
@@ -252,7 +244,8 @@ A function can (but is not required) to return some values using the keyword `re
 - basic syntax statment: `return value;`  
 
 
-## Features of an OOP
+
+# Features of an OOP
 
 1. Object  
 2. Classes  
@@ -262,11 +255,16 @@ A function can (but is not required) to return some values using the keyword `re
 
 ## Object
 
-1. An Object is a unique entity that contains property and methods.  
-2. The _characteristics_ of an `Object` are `Properties`
-3. The _actions_ of an `Object` are `Methods`   
-	 - NOTE: A `method` in JavaScript is a `property` of an `object` whose `value` is a `function`.   
-3. An Object is an _`instance of a class`_.   
+1. An `Object` is a unique entity that contains `Property` and `Method`
+2. The _characteristics_ of an `Object` are properties
+3. The _actions_ of an `Object` are methods   
+	 - NOTE: A `Method` in JavaScript
+	 	 - is a `Property` of an `Object` 
+	 	 	 - whose `Value` 
+	 	 	 	 - is a `Function`
+4. An Object is an _instance_ of a `Class`
+
+psst: pretty much everything is an Object in JavaScript (yes, even functions, arrays, and strings!)
 
 
 ### Creating an Object
@@ -304,9 +302,13 @@ The name of the person is Git Hub
 6789
 ```  
 
-Note: The name 'Git' comes from returning ${person.first_name}; 'Hub' comes from returning ${person.last_name}  
+Note: 
+- The name 'Git' comes from returning ${person.first_name}
+- The name 'Hub' comes from returning ${person.last_name}  
 
 2. Object Constructor 
+
+The `this`. 
 
 ```
 //using a constructor
@@ -333,6 +335,8 @@ Git Hub
 ```  
 
 3. Object.create() method  
+
+This creates a new object by using an existing object as the prototype of the newly created object. 
 
 ```
 // Object.create() example a
@@ -363,9 +367,27 @@ Output:
 My name is 1720. Am I studying?: true
 ```  
 
+
 ## Classes
 
-Templates vs Instances == Classes vs Objects  
+1. Classes are like the _blueprint_ of an `Object`
+2. A `class` can have many Objects
+	- Why? Because a `class` is a _template_ 
+3. Objects are instances of the class
+	 - ? They are the implementation
+
+In other words, Templates are to Instances as Classes are to Objects.
+- You can also think of them as _special functions_
+
+**WAIT**. _Unlike_ (most) OOP languages there are technically _no_ classes in JavaScript (because... everything is an object).
+
+**INSTEAD** we consider JavaScript to be a _Prototype Based Object Oriented Language_
+- behaviours are defined using a constructor function
+- 
+
+> _The class syntax is not introducing a new object-oriented inheritance model to JavaScript. JavaScript classes provide a much simpler and clearer syntax to create objects and deal with inheritance. 
+–[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)_
+
 
 ### Defining a Class
 
