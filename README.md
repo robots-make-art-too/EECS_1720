@@ -14,7 +14,7 @@ Files and folders are updated.
    - our `.md` files that you should _probably (definitely)_ look at
 
 2. JavaScript/ contains
-   - extension sample code (Lab 1)
+   - ~~extension sample code (Lab 1)~~
    - three working examples of where to `JavaScript-in-HTML`
 
 3. processing/ contains
@@ -28,6 +28,11 @@ Files and folders are updated.
    - an `img` folder to collect found content (don't worry if it's important it won't stay in the misc folder)
    - weekly updates otherwise not found in `docs/`
      - (where those `.md` files that _you should probably look at_ reside)
+
+5. demos/ contains
+   - extension sample code (Lab 1)
+     - with `HTML`
+     - with `HTML` _and_ `JavaScript`
 
 ---
 
