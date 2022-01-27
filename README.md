@@ -2,10 +2,6 @@
 
 commits made while instructing EECS 1720 - Building Interactive Systems (winter 2022) (course @York University, Canada)
 
-- live content will be cleaned, edited, and described in logfile and code comments each week
-- don't worry about the GitHub CLI (command line interface) files.. we will look at git and/or gh during Week 2
-- it's there if you're interested though
-
 ## what's new
 
 ### As of Jan 27
@@ -30,7 +26,11 @@ Files and folders are updated.
    - an `img` folder to collect found content (don't worry if it's important it won't stay in the misc folder)
    - weekly updates otherwise not found in `docs/`
 
-### History
+### Old (and maybe no longer relevant)
+
+- live content will be cleaned, edited, and described in logfile and code comments each week
+- don't worry about the GitHub CLI (command line interface) files.. we will look at git and/or gh during Week 2
+- it's there if you're interested though
 
 > course syllabus with updated due dates is now available
 >>
