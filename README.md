@@ -65,9 +65,10 @@ This README file is formatted with [Markdown](https://www.markdownguide.org/basi
 
 ---
 
-### Occasionally I update these web references 
+### Occasionally I update these web references
 
 (but web references are often only added to our `.md` files found in `docs/`)
+
 - (yes the `.md` files _you should probably look at_)
 
 <https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>

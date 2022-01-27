@@ -28,6 +28,13 @@ If you want to be extra careful loging `Objects`:
  console.dir(document.body);
  ```
 
+```JavaScript
+// and also try these in F12 console for fun?
+let obj = { "name":"alient plant", "age":679, "city":"the mountain on mars"};
+let myJSON = JSON.stringify(obj);
+document.getElementById("demo").innerHTML = myJSON;
+```
+
 Instead of `document.body`, what other `Object` instances might be useful to `inspect`?
 
 - classes
