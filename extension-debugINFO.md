@@ -36,7 +36,6 @@ Instead of `document.body`, what other `Object` instances might be useful to `in
 - ?
 
 ---
----
 
 ## Couple more questions
 
