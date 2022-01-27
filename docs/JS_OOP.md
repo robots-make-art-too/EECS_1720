@@ -523,7 +523,7 @@ The updated `ES6` format for JavaScript implements a JavaScript version of `clas
    ```console
    Hayabusa
    Kawasaki
-   The name of the bike is Hyabusa.
+   The name of the bike is Hayabusa.
    ```
 
 2. Traditional
@@ -553,7 +553,7 @@ The updated `ES6` format for JavaScript implements a JavaScript version of `clas
    ```console
    Hayabusa
    Kawasaki
-   The name of the bike is Hyabusa.
+   The name of the bike is Hayabusa.
    ```
 
 ---
