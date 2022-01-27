@@ -14,19 +14,19 @@
 
 If you want to be extra careful loging `Objects`:
 
-    Don't use console.log(obj), use console.log(JSON.parse(JSON.stringify(obj))).
-
-    This way you are sure you are seeing the value of obj at the moment you log it. Otherwise, many browsers provide a live view that constantly updates as values change. This may not be what you want. - [MDM Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Console/log#logging_objects)
+> Don't use console.log(obj), use console.log(JSON.parse(JSON.stringify(obj))).
+>
+> This way you are sure you are seeing the value of obj at the moment you log it. Otherwise, many browsers provide a live view that constantly updates as values change. This may not be what you want. - [MDM Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Console/log#logging_objects)
 
 (but since `console.log(obj)` _could_ give you constantly updating `event triggers`... maybe you could use that for something... like periodic associations to update other content... or?)
 
 ### Syntax
 
-    ```JavaScript
-    // You could try these for any website
-    console.log(document.body);
-    console.dir(document.body)
-    ```
+ ```JavaScript
+ // You could try these for any website
+ console.log(document.body);
+ console.dir(document.body);
+ ```
 
 Instead of `document.body`, what other `Object` instances might be useful to `inspect`?
 
