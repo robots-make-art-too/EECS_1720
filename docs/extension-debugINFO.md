@@ -7,7 +7,7 @@
 2. the inspector tool
    - the `inspector` tool (little arrow) allows you to select content and identify common `HTML`, `CSS`, or `JavaScript` tags
 3. console.log() _and_ console.dir()
-   - `console.log()` and `console.dir()` can display all sorts of useful information that can be executed during `run-time`
+   - `console.log()` and `console.dir()` can display all sorts of useful information that can be executed during `runtime`
    - in _most_ cases `.log()` prints the _`toString` representation of the `Object`_ while `.dir()` recognizes the `Object` and prints _only the `properties`_
 4. JSON.stringify()
    - `JSON.stringify()` lets you grab your content in a string format (remember our `JSON` references in lecture?)
