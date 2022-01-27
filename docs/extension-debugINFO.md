@@ -31,16 +31,16 @@ If you want to be extra careful loging `Objects`:
 ```HTML
 // and also try this?
 <!DOCTYPE html>
-  <html>
-    <body>
-      <h2>Create JSON string from a JavaScript object.</h2>
-      <p id="demo"></p>
-      <script>
-        let obj = { "name":"alien plant", "age":679, "city":"that red mountain on Mars"};
-        let myJSON = JSON.stringify(obj);
-        document.getElementById("demo").innerHTML = myJSON;
-      </script>
-     </body>
+   <html>
+      <body>
+         <h2>Create JSON string from a JavaScript object.</h2>
+         <p id="demo"></p>
+         <script>
+            let obj = { "name":"alien plant", "age":679, "city":"that red mountain on Mars"};
+            let myJSON = JSON.stringify(obj);
+            document.getElementById("demo").innerHTML = myJSON;
+         </script>
+      </body>
    </html>
 ```
 
