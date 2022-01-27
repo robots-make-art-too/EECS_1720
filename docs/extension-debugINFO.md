@@ -28,11 +28,20 @@ If you want to be extra careful loging `Objects`:
  console.dir(document.body);
  ```
 
-```JavaScript
-// and also try these in F12 console for fun?
-let obj = { "name":"alient plant", "age":679, "city":"the mountain on mars"};
-let myJSON = JSON.stringify(obj);
-document.getElementById("demo").innerHTML = myJSON;
+```HTML
+// and also try this?
+<!DOCTYPE html>
+  <html>
+    <body>
+      <h2>Create JSON string from a JavaScript object.</h2>
+      <p id="demo"></p>
+      <script>
+        let obj = { "name":"alien plant", "age":679, "city":"that red mountain on Mars"};
+        let myJSON = JSON.stringify(obj);
+        document.getElementById("demo").innerHTML = myJSON;
+      </script>
+     </body>
+   </html>
 ```
 
 Instead of `document.body`, what other `Object` instances might be useful to `inspect`?
