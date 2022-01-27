@@ -2,6 +2,8 @@
 
 commits made while instructing EECS 1720 - Building Interactive Systems (winter 2022) (course @York University, Canada)
 
+---
+
 ## what's new
 
 ### As of Jan 27
@@ -25,6 +27,9 @@ Files and folders are updated.
    - some additional `txt` files for installation help (incomplete for all `OS` but will be updated when and if we need to)
    - an `img` folder to collect found content (don't worry if it's important it won't stay in the misc folder)
    - weekly updates otherwise not found in `docs/`
+     - (where those `.md` files that _you should probably look at_ reside)
+
+---
 
 ### Old (and maybe no longer relevant)
 
@@ -51,11 +56,19 @@ Files and folders are updated.
 >> for now you can copy the sketch code into the p5.js editor on the website and start playing around
 >> if you really want to get into the self-serve .. there are some instructions included in the folder
 
-## Markdown
+---
+---
 
-This README file formatted with [Markdown](https://www.markdownguide.org/basic-syntax/) :)
+## If you are interested
 
-### WEB REFERENCES
+This README file is formatted with [Markdown](https://www.markdownguide.org/basic-syntax/) :)
+
+---
+
+### Occasionally I update these web references 
+
+(but web references are often only added to our `.md` files found in `docs/`)
+- (yes the `.md` files _you should probably look at_)
 
 <https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
 
