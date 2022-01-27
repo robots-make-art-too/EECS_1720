@@ -1,14 +1,61 @@
-# don't forget -- 
-## F12 is a way to debug through the terminal Use the Inspect tool!
-### you can inspect the webpage elements for common
->> classes, IDs, div, etc to alter or remove in some way.
+# Debug 101
 
-### what does this do? 
->> remove URL, change colour of URL, remove widgets (twitter, side bar, maps, 'related searches', 'people also ask'... etc) ..
+## Rememeber these
 
-# ALOT more details here but don't get overwhelmed! 
-> 
->> https://github.com/EECSB/Google-Search-Customizer
->> 
+1. F12
+   - `F12` should default to open `developer` mode in a browser
+2. the inspector tool
+   - the `inspector` tool (little arrow) allows you to select content and identify common `HTML`, `CSS`, or `JavaScript` tags
+3. console.log() _and_ console.dir()
+   - `console.log()` and `console.dir()` can display all sorts of useful information that can be executed during `run-time`
+   - in _most_ cases `.log()` prints the _`toString` representation of the `Object`_ while `.dir()` recognizes the `Object` and prints _only the `properties`_
+4. JSON.stringify()
+   - `JSON.stringify()` lets you grab your content in a string format (remember our `JSON` references in lecture?)
 
-### try playing around with F12 and the console / inspector for getting class, id or div names you can alter on a google search page !
+If you want to be extra careful loging `Objects`:
+
+    Don't use console.log(obj), use console.log(JSON.parse(JSON.stringify(obj))).
+
+    This way you are sure you are seeing the value of obj at the moment you log it. Otherwise, many browsers provide a live view that constantly updates as values change. This may not be what you want. - [MDM Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Console/log#logging_objects)
+
+(but since `console.log(obj)` _could_ give you constantly updating `event triggers`... maybe you could use that for something... like periodic associations to update other content... or?)
+
+### Syntax
+
+    ```JavaScript
+    // You could try these for any website
+    console.log(document.body);
+    console.dir(document.body)
+    ```
+
+Instead of `document.body`, what other `Object` instances might be useful to `inspect`?
+
+- classes
+- id
+- div
+- ?
+
+---
+---
+
+## Couple more questions
+
+What did that _more detailed_ browser extension example do?
+
+1. remove `URL`s
+2. change colour of `URL`
+3. handle `widgets`
+   - twitter
+   - side bar
+   - maps
+   - related searches
+   - people also ask
+   - ...
+
+### I want more
+
+Don't get overwhelmed, there is a lot going on [here](https://github.com/EECSB/Google-Search-Customizer). If you have **QUESTIONS** just ask!
+
+#### What about?
+
+You should try playing around with `F12`, the `console` _`methods`_, or the `inspector` tool to obtain the `tag` of an `Object` you can alter on a web page!
