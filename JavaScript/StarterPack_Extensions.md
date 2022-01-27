@@ -8,6 +8,8 @@ Start here.. what is [DOM](https://www.freecodecamp.org/news/what-is-the-dom-doc
 
 - (this is firefox but any operating system is related - they all use `manifest.json` and they all need to request `premissions`)
 
+---
+
 ## OK but what can I _do_ ?
 
 Does it matter which [Browser](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs)?
@@ -32,6 +34,8 @@ Best by example? These go together:
 
 Switching browsers? Unsure what works where? See if what you are doing is [incompatible](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities)?
 
+--- 
+
 ## OK so what about other ".js" stuff?
 
 Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?ref=lbp) to your extension? (It is like adding your `external.js` file only with many more pre-defined function options for drawing, images, sound etc.)
@@ -39,6 +43,8 @@ Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?re
 ### Did you want an example of aesthetic + technical?
 
 Maybe I can help you _think_ about aesthetic [concepts](https://blog.homeforfiction.com/2020/02/20/book-worming-party-literature-meets-drawing/)?
+
+---
 
 ## Some _specific_ questions you may be asking?
 
