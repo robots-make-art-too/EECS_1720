@@ -42,7 +42,7 @@ Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?re
 
 ### Did you want an example of aesthetic + technical?
 
-Maybe I can help you _think_ about aesthetic [concepts](https://blog.homeforfiction.com/2020/02/20/book-worming-party-literature-meets-drawing/)?
+Maybe this Chris[^1] can help you _think_ about aesthetic [concepts](https://blog.homeforfiction.com/2020/02/20/book-worming-party-literature-meets-drawing/)?
 
 ---
 
@@ -58,3 +58,8 @@ Maybe I can help you _think_ about aesthetic [concepts](https://blog.homeforfict
 
 - In general you should be _careful_ with concepts like asking for **ALL OF THE EVERYTHING**
   - if implemented inefficiently... things can freeze!
+
+---
+---
+
+[^1]: https://homeforfiction.com/#about
