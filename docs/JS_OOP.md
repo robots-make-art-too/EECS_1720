@@ -37,9 +37,11 @@ This random behavior can _and will_ build up certain complexities... in our case
 
 No. We will use `strict` and follow `ES6` ([what is this?](https://www.educba.com/what-is-es6/))
 
- FYI:
-  HTML: [H]yper [T]ext [M]arkup [L]anguage
-  CSS : [C]ascading [S]tyle [S]heets
+ > FYI:
+ > 
+ > HTML: [H]yper [T]ext [M]arkup [L]anguage
+ >
+ > CSS : [C]ascading [S]tyle [S]heets
 
 So, _usually_ you can think of HTML as content structure, CSS as content appearance, and JavaScript as content behaviour. But this is changing (confusion inevitable).
 **If we want anything to change on a webpage without reloading the entire page, we need JavaScript** [help me](https://css-tricks.com/why-javascript-is-eating-html/)... that link is also useful in clarifying `imperative` v `declarative` programming... and it is _PROBABLY USEFUL FOR UNDERSTANDING THE HOWS AND WHATS BEHIND YOUR BROWSER EXTENSION_
