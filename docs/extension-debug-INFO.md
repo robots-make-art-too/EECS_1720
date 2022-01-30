@@ -31,6 +31,9 @@ If you want to be extra careful loging `Objects`:
 ```HTML
 <!DOCTYPE html>
    <html>
+      <head>
+         <!-- REMEMBER: you can save me and then open me in a browser to interact with me -->
+      </head>
       <body>
          <h2>Create JSON string from a JavaScript object.</h2>
          <p id="demo"></p>
