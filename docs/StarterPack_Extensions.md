@@ -38,7 +38,7 @@ Switching browsers? Unsure what works where? See if what you are doing is [incom
 
 ## OK so what about other ".js" stuff?
 
-Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?ref=lbp) to your extension? (It is like adding your `external.js` file only with many more pre-defined functions options for drawing, images, sound etc.)
+Like... adding [`p5.js`](https://www.geeksforgeeks.org/p5-js-select-function/?ref=lbp) to your extension? (It is like adding your `external.js` file only with many more pre-defined function options for drawing, images, sound etc.)
 
 ### Did you want an example of aesthetic + technical?
 
