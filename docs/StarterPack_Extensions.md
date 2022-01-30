@@ -24,9 +24,9 @@ Does it matter which [Browser](https://developer.mozilla.org/en-US/docs/Mozilla/
 
 Best by example? These go together:
 
-1. asking for `activeTab` [permission](https://www.geeksforgeeks.org/how-to-check-if-a-browser-tab-is-currently-active-or-not/?ref=gcse)
+1. asking for `activeTab` [permission](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions)
 
-2. how to check if a browser tab is currently [active](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions)
+2. how to check if a browser tab is currently [active](https://www.geeksforgeeks.org/how-to-check-if-a-browser-tab-is-currently-active-or-not/?ref=gcse)
 
 > This concept carries through to other actions you may be interested in and so need to ask permissions for.
 
