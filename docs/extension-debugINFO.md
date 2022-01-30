@@ -31,6 +31,9 @@ If you want to be extra careful loging `Objects`:
 ```HTML
 <!DOCTYPE html>
    <html>
+      <head>
+         <!-- Don't forget to checkout the example in our JavaScript folder - that version has a timer! -->
+      </head>
       <body>
          <h2>Create JSON string from a JavaScript object.</h2>
          <p id="demo"></p>
