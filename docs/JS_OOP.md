@@ -94,7 +94,7 @@ So, _usually_ you can think of HTML as content structure, CSS as content appeara
 
 ### JavaScript in an HTML Document
 
-1. JavaScript in `<head>
+1. JavaScript in `<head>`
 
     ```HTML
     <!DOCTYPE html>
