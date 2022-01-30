@@ -202,27 +202,8 @@ Just include the following where relevant (whole file? individual method?)
    ```console
    Uncaught ReferenceError: myVariable is not defined
    ```
-
-2. Duplication of parameter names
-
-   what?
-
-   **Remember me**: JavaScript allows duplicate parameter names, we can prevent this using `strict`
-
-   Example:
-
-   ```JavaScript
-   "use strict"; // Turn on strict mode.
-   let eval = 5;
-   ```
-
-   Output:
-
-   ```console
-   Uncaught SyntaxError: Unexpected eval of arguments in strict mode
-   ```
-
-3. Using reserved keywords as variable names
+   
+2. Using reserved keywords as variable names
 
    what?
 
@@ -239,6 +220,25 @@ Just include the following where relevant (whole file? individual method?)
 
    ```console
    Uncaught SyntaxError: Unexpected eval or arguments in strict mode
+   ```
+   
+3. Duplication of parameter names
+
+   what?
+
+   **Remember me**: JavaScript allows duplicate parameter names, we can prevent this using `strict`
+
+   Example:
+
+   ```JavaScript
+   "use strict"; // Turn on strict mode.
+   let eval = 5;
+   ```
+
+   Output:
+
+   ```console
+   Uncaught SyntaxError: Unexpected eval of arguments in strict mode
    ```
 
 4. Deletion of JavaScript elements
