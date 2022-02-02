@@ -84,3 +84,8 @@ Where'd I get a lot of this summarized `Git` content? Oh yeah. From that link I 
 [^2]: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#what_is_git_section
 [^3]: https://www.jetbrains.com/help/idea/sync-with-a-remote-repository.html
 [^4]: https://initialcommit.com/blog/what-is-git-head
+
+---
+[Clone](https://www.classicpress.net/github-desktop-step-2-clone/)
+[Simple GitHub Desktop](https://www.classicpress.net/github-desktop-a-really-really-simple-tutorial/)
+[Basic Commands](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
