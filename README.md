@@ -14,6 +14,9 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 2. Some clarification in files regarding what is for advanced students and not for those just starting.
    - Digital Media is always a mix of people often with large differences in kind and type of knowledge and experience
+   - it is _expected_ that you will have different skills
+   - it is _expected_ that you will learn at different paces
+   - you are expected to improve _as compared to yourself_ (and not other students!)
 
 ---
 
