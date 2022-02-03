@@ -1,8 +1,6 @@
 
 # JavaScript OOP |  [O]bject [O]riented [P]rogramming
 
- (Still updating this file...)
-
 ---
 
 ## Quick Introduction to JavaScript
