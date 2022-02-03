@@ -1,4 +1,4 @@
-# Pythom intro
+# Python intro
 
 note: work-in-progress
 
