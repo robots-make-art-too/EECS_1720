@@ -1,7 +1,7 @@
 {
   "name": "Extension Demo",
   "version": "1.0",
-  "description": "Build an Basic Extension!",
+  "description": "Build a Basic Extension!",
   "permissions": ["activeTab"],
   "browser_action": {
     "default_popup": "popup.html",
