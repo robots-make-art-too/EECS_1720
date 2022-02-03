@@ -6,17 +6,35 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 ## what's new
 
+### As of `post-lecture` Feb 3
+
+A reminder that all code developed and demoed during class will be updated in the folder `live_code` available in this repo. Note that it will be `live` so you can copy-paste immediately, but that the content itself might be organized or rearrange after lecture.
+
+The code will remain in `live_code` until the next lecture - at which point it will be moved to the `Content_by_Topic` and `Content_by_Week` folders so that our `live_code` folder can be emptied and ready for the next lecture's code content.
+
+**Specifically:** video files of any live code will be made available ASAP (I have to wait for zoom to send me a 'recording is ready' notification - then I can grab, edit if needed, and share the file). Videos will be available either directly from zoom (if there is no need to edit) otherwise they can be found in our Lecture_Videos drive and/or eClass
+
+---
+
 ### As of Feb 3
 
-1. Content is arranged by:
+1. In response to feedback from our questionnaire content will now be arranged by both:
    - Topic
    - Week
+   
+   The content will be the same - just organized differently, so, depending on your preference, you can look content up by topic (python, JavaScript, lecture notes etc.) or by week (follows the course syllabus regarding content)
 
-2. Some clarification in files regarding what is for advanced students and not for those just starting.
+2. I have also added some clarification in past files regarding what is for advanced students and not for those just starting. Moving forward I will indicate during lecture and in any lecture notes where the content diverges and depending on if we are doing a `deeper dive` or `just starting`, you will know within what context we are working and can tune out or tune in accordingly (but keep playing with the code in either case!). 
    - Digital Media is always a mix of people often with large differences in kind and type of knowledge and experience
    - it is _expected_ that you will have different skills
    - it is _expected_ that you will learn at different paces
    - you are expected to improve _as compared to yourself_ (and not other students!)
+
+3. Since we are now all setup with repo's and have some familiarity working with code files and folders - lectures will start exploring, in much more detail, the aspects of `sound`, `image`, and `interaction` _directly into `live code` examples_ where students are expected to follow along `actively`. This process will be worked from both processing.py (python mode in processing v3) and carried into JavaScript with p5.js. This will let us compare the codes, and, because of the direct connection to the processing framework, both languages will maintain very similar structure, function names, and reference points. Now we can start exploring the underlying patterns in our code's logic, output, and general form. 
+
+4. We will generally always see content within a processing context, so processing.py / python mode in the `PDE` (recall: [P]rocessing [D]evelopmet [E]nvironment) when working with python, and p5.js when working with JavaScript. When working through code in the p5.js context, any `index.html` files required for the JavaScript examples will be identical other than changing the name of the `sketch.js` file if we are using more than one. Any libraries will be provided or direct instructions on how to load or add them will be mentioned.
+
+5. We will at times develop (individual pace) both `python` and `JavaScript` content outside of `processing`. Some of our python exploring will be done as individual `.py` files, and more and more of our JavaScript exploring will be extended beyond p5.js.
 
 ---
 
