@@ -157,15 +157,15 @@ NOTE: As a piece of advice for new Python programmers, always set up a separate 
 
 Simple Python objects are translated to JSON according to a fairly intuitive conversion.
 
-Python            JSON
+- Python      |     JSON
 
-dict              object
-list, tuple       array
-str               string
-int, long, float  number
-True              true
-False             false
-None              null
+- dict         |     object
+- list, tuple   |    array
+- str            |   string
+- int, long, float|  number
+- True             | true
+- False            | false
+- None          |    null
 
 Next part is for advanced students:
 
