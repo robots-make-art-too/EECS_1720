@@ -6,6 +6,17 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 ## what's new
 
+### As of Feb 3
+
+1. Content is arranged by:
+   - Topic
+   - Week
+
+2. Some clarification in files regarding what is for advanced students and not for those just starting.
+   - Digital Media is always a mix of people often with large differences in kind and type of knowledge and experience
+
+---
+
 ### As of Jan 27
 
 Files and folders are updated.
