@@ -12,7 +12,7 @@ HTML [cheat sheet](https://htmlcheatsheet.com/)
 
 ## CSS TAGS
 
-[CSS)(https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
 CSS [cheat sheet](https://websitesetup.org/css3-cheat-sheet/)
 
