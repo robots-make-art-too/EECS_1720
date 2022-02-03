@@ -70,8 +70,8 @@ Python has the following programming features, borrowed from different languages
 Although, Python 2 is an old open source version here are where you still need to learn Python 2:
 
 To become a DevOps engineer and you need to work with configurations management tools like puppet or ansible. Here, you need to work with both of these versions.
-   - If your company's code is written in Python 2, you will have to learn to work with that
-   - If your development team is working on a project that depends on specific third-party libraries or software which you are not able to port to Python 3, then Python 2 is the only option available for you.
+   - e.g., If your company's code is written in Python 2, you will have to learn to work with that
+   - e.g., If your development team is working on a project that depends on specific third-party libraries or software which you are not able to port to Python 3, then Python 2 is the only option available for you.
 
 ### Python3
 
