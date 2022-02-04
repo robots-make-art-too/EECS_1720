@@ -7,7 +7,7 @@ def draw():
   background(253)
   stroke(0) 
   noFill()  
-  constantFactor = 1.315
+  constantFactor = 1.3
   circleSize = 20 
   
   for i in range(0,20):
