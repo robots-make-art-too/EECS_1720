@@ -33,7 +33,7 @@ Much like each sentence, word, and character make up a book, lines of code make 
 
 ## What does this mean for us?
 
-Coding and programming must work together in order to make a successful program. They are both vital pieces to the puzzle. First, a programmer plans the application from start to finish, then the coder translates those plans into code. The programmer puts all of that code together, tests it, and creates the final product. In our case, we will all look at being the `programmer` _and_ the `coder` - and we do this through the completetion of our _stand alone_ projects. This is where the difference really takes form - by creating self-contained working projects - they can be `published` as full programs.
+Coding and programming must work together in order to make a successful program. They are both vital pieces to the puzzle. First, a programmer plans the application from start to finish, then the coder translates those plans into code. The programmer puts all of that code together, tests it, and creates the final product. In our case, we will all look at being the `programmer` _and_ the `coder` - and we do this through the completetion of our _stand alone_ projects. This is where the difference really takes form - by creating self-contained working projects - they can be `published` as full programs. Programmers are `designers` and you can draw parallels to artistic practice here.
 
 Does your work need to be incredibly world-altering? NO! It is the process and seeing something through to completion - while making _execuitve_ decisions in order to accomplish that `final stage` of `relased to public`, that is the goal.
 
