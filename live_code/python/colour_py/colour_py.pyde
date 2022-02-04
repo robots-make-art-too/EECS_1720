@@ -10,7 +10,7 @@ def setup():
 def draw():
   global c, d
   for x in range(width): # loop through every x
-    p = lerpColor(c, d, 1.0* x/width)
+    p = lerpColor(c, d, 1.0 * x/width)
     stroke(p)
     line(x, 0, x, height)
 
