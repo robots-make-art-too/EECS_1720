@@ -24,9 +24,9 @@ def setup():
   smooth()
   global numRings, ring
 
-  # for i in range(numRings): 
-  #   colour = color(random(255), random(255), random(255))
-  #   rings[i] = Ring(0, 0, 0, False, colour) # Create each object
+  for i in range(numRings): 
+    colour = color(random(255), random(255), random(255))
+    ring[i] = Ring(0, 0, 0, False, colour) # Create each object
 
 
 def draw():
@@ -39,22 +39,26 @@ def mousePressed():
 
 
 
-
 class Ring(object):
-# what attributes, or characteristics
-# do we want our rings to have?
+  # what attributes, or characteristics
+  # do we want our rings to have?
 	# 1. initialize
-  def __init__(self):
+  def __init__(self, x, y, diameter, on, colour):
+    self.x = x
+    self.y = y
+    self.diameter = diameter
+    self.on = False
+    self.colour = colour
 
-# 2. start
+  # 2. start
 	def start(self):
 
 
-# 3. grow
+  # 3. grow
   def grow(self):
 
 
-# 4. display
+  # 4. display
   def display(self):
 
 
