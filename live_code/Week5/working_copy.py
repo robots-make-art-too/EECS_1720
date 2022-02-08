@@ -3,7 +3,7 @@
 #
 # 2. rings:
 # a way to count the rings
-numRings = 40
+numRings = 40 
 
 #	a way to store the rings
 ring = [0]*numRings
@@ -36,7 +36,14 @@ def draw():
 
 def mousePressed():
   global numRings, rings
+  # when we click we want to activate a ring at the location of the cursor
+  # so our xpos = mouseX
+  # and the ypos = mouseY
+  ring[currentRing].start(mouseX, mouseY)
 
+  currentRing += 1
+  if (currentRing >= numRings):
+    currentRing = 0
 
 
 class Ring(object):
@@ -51,8 +58,11 @@ class Ring(object):
     self.colour = colour
 
   # 2. start
-	def start(self):
-
+	def start(self, xpos, ypos):
+    self.x = xpos;
+    self.y = ypos;
+    self.on = True;
+    self.diameter = 1;
 
   # 3. grow
   def grow(self):
