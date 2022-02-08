@@ -1,4 +1,4 @@
-// Geometric Progression
+// Sound, Image, Interaction
 
 let p;
 let c, d;
@@ -36,7 +36,7 @@ function draw() {
   //draws 20 concentric circles of decreasing diameter and decreasing lineWeight
   if (mouseIsPressed === true) {
 
-    for (var i=1; i<20; i++) {
+    for (let i=1; i<20; i++) {
 
       //loop through every x
       
@@ -47,9 +47,9 @@ function draw() {
       strokeWeight(circleSize/25.0); 
       ellipse(width/2,height, circleSize, circleSize);
       circleSize = circleSize * constantFactor; 
-    }
-  }
-}
+    } // end of for 
+  } // end of if mouseIsPressed()
+} // end of function draw()
 
 
 // A function to play a note
@@ -69,15 +69,15 @@ function playNote(note, duration) {
 
 // When we click
 function mousePressed(event) {
+
   c= color(random(255), random(255), random(255));
   d= color(random(255), random(255), random(255));
  
-   if(event.button == 0 && event.clientX < width && event.clientY < height) {
+  if(event.button == 0 && event.clientX < width && event.clientY < height) {
     // Map mouse to the key index
     let key = floor(map(mouseX, 0, width, 0, notes.length));
     playNote(notes[key]);
   } 
-
 }
 
 // Fade it out when we release
