@@ -18,13 +18,24 @@ import tweepy #  twitter API
 #####
 
 
+
 # authentification
 
 # require some sort of account access - so make a new one or a dummy something
 # there will be some developer or token activation or generation
 #
 
-consumer_key = ''
+
+tokens = []
+
+# load my authetifciation keys/tokens from a file
+
+with open('file.txt', 'r') as f:
+  for line in f:
+    tokens.append(line.strip())
+
+
+consumer_key = tokens[0]
 consumer_secret = ''
 access_token = ''
 access_token_secret = ''
@@ -35,8 +46,6 @@ auth.set_access_token(access_token, access_token_secret)
 # we need to identify and define the way we will use the API
 # how we call the API
 api = tweepy.API(auth)
-
-# load my authetifciation keys/tokens from a file
 
 # my choice of media is video/images direct from my camera/webcam
 
