@@ -95,17 +95,23 @@ while(video.isOpened()):
     cv2.imshow('Frame', frame)
     cv2.imwrite('img/Frame.png', frame)
 
-    # add to an API function (we don't build these)
-    # post (you could grab, read, etc)
-    statusMessage = "Hi I am an image!"
-    api.update_status_with_media(statusMessage,"img/Frame.png") 
-    # this is where you will get creative what and how and why will you access 
-    # there are many ways to interact with, access, or generated, content
-
     # Press q on keyboard - or something else, try it
     # to stop the process and grab a photo!
     # (from the last frame or instance of the cv2.imwrite() & cv2.imShow())
     if cv2.waitKey(1) & 0xFF == ord("q"):
+
+      #####
+      # let us only post one image to twitter, the last access instead of the continuous frame grabs
+      ####
+      
+      # add to an API function (we don't build these)
+      # post (you could grab, read, etc)
+      statusMessage = "Hi I am an image!"
+      api.update_status_with_media(statusMessage,"img/Frame.png") 
+      
+      # this is where you will get creative what and how and why will you access 
+      # there are many ways to interact with, access, or generated, content
+     
       break
 
   # Break the loop condition
