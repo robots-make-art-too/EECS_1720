@@ -5,6 +5,13 @@
 # but not really in python - we are just keeping them here because 
 # it doesn't disrupt the program when run in processing, 
 # and maintains a consistency which can also carry-over to our JavaScript versions
+#
+# SPECIFICALLY: in python the semi-colon indicates S-E-P-A-R-A-T-I-O-N
+# and _not_ 
+# termination; # as is the case for Java, C/C++ etc.
+# this lets you add multiple statements; to the same; line; like this;
+# size(600,600); smooth(); global numRings, ring;
+#
 ###
 
 ### 
@@ -16,10 +23,10 @@
 # a way to count the rings
 numRings = 40; # arbitrary (but small changes can make a significant aesthetic impact!)
 
-#	a way to store the rings
+# a way to store the rings
 ring = [0]*numRings; # I am an array of length numRings
 
-#	a way to keep track of which rings
+# a way to keep track of which rings
 currentRing = 0; # arrays start at a value of 0 so we will too
 
 # a way to change the ring colours
