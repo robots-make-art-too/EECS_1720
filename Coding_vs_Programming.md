@@ -37,7 +37,7 @@ Coding and programming must work together in order to make a successful program.
 
 Does your work need to be incredibly world-altering? NO! It is the process and seeing something through to completion - while making _executive_ decisions in order to accomplish that `final stage` of `relased to public`, that is the goal.
 
-We are not leaving `coding` behind! Rather we are _adding_ to this process by specifically requesting you start developing (or at least considering!) your _own_ motivations, reasons, and directed learning proccesses so that you can being to move from `coding` and towards `programming`. To be successful in these technical skills _you must understand_ that this takes _signifiant personal responsibility_ to `practice`, `explore`, `learn`, and _ultimately_ `create`.
+We are not leaving `coding` behind! Rather we are _adding_ to this process by specifically requesting you start developing (or at least considering!) your _own_ motivations, reasons, and directed learning proccesses so that you can begin to move from `coding` and towards `programming`. To be successful in these technical skills _you must understand_ that this takes _signifiant personal responsibility_ to `practice`, `explore`, `learn`, and _ultimately_ `create`.
 
 When you are asked to `think` about what you want to do _before_ you are shown or start your code - you are being asked _to `program`_. Why? You are being asked to `design` and decide on a _reason for coding_.
 
