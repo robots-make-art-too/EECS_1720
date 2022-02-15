@@ -6,6 +6,37 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 ## what's new
 
+### As of `9pm EST` Feb 14
+
+I am going through the repo to update any files that need updating or to add any lecture notes. Also note the following last week before reading week plan.
+
+For the week:
+1. Monday: Try to get Phase 1 submitted or at least let me know if there are still group member issues
+2. Tuesday: 
+   - adding processing content to our social bot example
+     - this way students can have the option of separating what they want to update their social bot with from the social bot access 
+     - if you want to try and go for a whole system build/updating from same program/file etc. go for it!
+     - otherwise we will explore processing.py options to keep things familiar
+   - (Tuesday/Thursday) review previous content for OOP classes in JavaScript (p5.js) and Python (processing.py) 
+3. Wednesday: more social bot code 
+   - Should have grades back and will review before posting to eClass - expect to have the following released over next couple of days:
+     - Lab 1 - part a) and part b)
+     - Lab 2 - part a)
+     - Quiz 1
+     - 2 checks of 100 days (so 2% of the 10%)
+   - Lab will work through social bot code and design
+     - by the end of lab or within a few days students should decide if they want to try to integrate into an alternative social feed or else use the twitter exmple; we will work through adding tokens for a full working twitter example in this case so that you can always revert back to this type of social bot 
+4. Thursday: 
+   - we will setup a simple local host server
+   - (Tuesday/Thursday) review previous content for OOP classes in JavaScript (p5.js) and Python (processing.py) 
+   - Quiz 2 released (we will _not_ do it in lecture - you will have the next day to complete it)
+5. Friday: 
+   - Hand in Quiz 2 by _EOD_ ([E]nd [O]f [D]ay)
+   - Phase 2 group project information released
+   - Grades returned if not already done so
+   
+---
+
 ### As of `post-lecture` Feb 3
 
 A reminder that all code developed and demoed during class will be updated in the folder `live_code` available in this repo. Note that it will be `live` so you can copy-paste immediately, but that the content itself might be organized or rearrange after lecture.
