@@ -14,7 +14,7 @@ For the week:
 1. Monday: Try to get Phase 1 submitted or at least let me know if there are still group member issues
 2. Tuesday: 
    - adding processing content to our social bot example
-     - this way students can have the option of separating what they want to update their social bot with from the social bot access 
+     - this way students can have the option of separating what they want to update their social bot with .. from the social bot access 
      - if you want to try and go for a whole system build/updating from same program/file etc. go for it!
      - otherwise we will explore processing.py options to keep things familiar
    - (Tuesday/Thursday) review previous content for OOP classes in JavaScript (p5.js) and Python (processing.py) 
@@ -25,7 +25,7 @@ For the week:
      - Quiz 1
      - 2 checks of 100 days (so 2% of the 10%)
    - Lab will work through social bot code and design
-     - by the end of lab or within a few days students should decide if they want to try to integrate into an alternative social feed or else use the twitter exmple; we will work through adding tokens for a full working twitter example in this case so that you can always revert back to this type of social bot 
+     - by the end of lab or within a few days students should decide if they want to try to integrate into an alternative social feed or else use the twitter example; we will work through adding tokens for a full working twitter example in this case so that you can always revert back to this type of social bot 
 4. Thursday: 
    - we will setup a simple local host server
    - (Tuesday/Thursday) review previous content for OOP classes in JavaScript (p5.js) and Python (processing.py) 
