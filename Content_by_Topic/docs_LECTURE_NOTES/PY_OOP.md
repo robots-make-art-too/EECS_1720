@@ -194,6 +194,8 @@ ouch a triangle.
 
 ### Encapsulation
 
+**Note:** The concept is for all students; this example is for more advanced students.
+
 By _wrapping_ our data and methods into one unit it is possible to _restrict_ variable and method access. We could set our `Class` up such that an `Object`'s variable could _only_ be changed by an `Object`'s method (making it a _private_ variable):
 
 ```Python
