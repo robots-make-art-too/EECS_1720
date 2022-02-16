@@ -194,6 +194,8 @@ ouch a triangle.
 
 ### Encapsulation
 
+**Note:** The concept is for all students; this example is for more advanced students.
+
 By _wrapping_ our data and methods into one unit it is possible to _restrict_ variable and method access. We could set our `Class` up such that an `Object`'s variable could _only_ be changed by an `Object`'s method (making it a _private_ variable):
 
 ```Python
@@ -249,6 +251,18 @@ Calling private member of base class:
 
 What happend? We created the _privatename_ `variable` as a _private_ `attribute`; we _can't directly access_ this `attribute` and we _can't change_ its `value`.
 
+### NOTE ABOUT CONVENTION
+
+`Protected members` (in `C++` and `JAVA`) are those members of the `class` that _cannot be accessed outside the `class`_ but _can be accessed from within the `class` and its `subclasses`. To accomplish this in `Python`:
+- follow the convention by `prefixing` the name of the member by a single underscore `“_”`.
+
+In `Python` however, `mangling` allows this convention to be broken (the `protected` variable _can_ be accessed out of the `class`)
+- So? We follow the customs of `C++` and `JAVA` and do _not_ access the `protected` variable outside of the `class`
+- this is not a `rule` but a `convention`
+
+>
+> Note: The `__init__` method is a _constructor_ and runs as soon as an object of a class is instantiated.  
+
 ---
 
 ## Other aspects
@@ -276,18 +290,3 @@ There are even more types of `inheritence`:
 5. Hybrid inheritence
 
 ... and we can define whether or not instances (`children`) inherit private variables (from `parent`)
-
----
-
-## NOTE ABOUT CONVENTION
-
-`Protected members` (in `C++` and `JAVA`) are those members of the `class` that _cannot be accessed outside the `class`_ but _can be accessed from within the `class` and its `subclasses`. To accomplish this in `Python`:
-- follow the convention by `prefixing` the name of the member by a single underscore `“_”`.
-
-In `Python` however, `mangling` allows this convention to be broken (the `protected` variable _can_ be accessed out of the `class`)
-- So? We follow the customs of `C++` and `JAVA` and do _not_ access the `protected` variable outside of the `class`
-- this is not a `rule` but a `convention`
-
->
-> Note: The `__init__` method is a _constructor_ and runs as soon as an object of a class is instantiated.  
-> 
