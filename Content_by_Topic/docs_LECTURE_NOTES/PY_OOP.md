@@ -251,7 +251,7 @@ What happend? We created the _privatename_ `variable` as a _private_ `attribute`
 
 ---
 
-## Other aspects (advanced students)
+## Other aspects
 
 1. Subclassing - calling the _constructor_ of a `parent` `Class`: a `child` `Class` must _identify_ which `Class` is its _`parent`_
 ```Python
