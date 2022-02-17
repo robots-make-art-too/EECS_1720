@@ -8,7 +8,7 @@ The main concepts of `OOP` are:
 1. `Class` - the `blueprint` or `collection` of `Objects`
 2. `Objects` - an `entity` that has a `state` and `behaviour` and is `unique`
 3. `Polymorphism` - having _many_ (`poly`) forms
-4. `Inheritence` - a property where one `class` has the capability to _derive_ or _inherit_ the properties from another `class`
+4. `Inheritance` - a property where one `class` has the capability to _derive_ or _inherit_ the properties from another `class`
 5. `Encapsulation` - a _fundamental_ concept where `data` and `methods` are contained within _one unit_ (e.g., a `class`)
 
 ### Class
@@ -110,7 +110,7 @@ There are many types of rings.
 Friendship rings are not round.
 ```
 
-### Inheritence
+### Inheritance
 
 Notice how in our earlier example, since we did _not_ change the `parent` `Class` for _Ring.info_, our `children` retained this attribute. This is an example of `inheritance`.
 
@@ -146,7 +146,7 @@ Wedding rings are round.
 
 Our `Object` _object2_wedding_ has retained `Object` _object1_ring_'s .info property. It was `inherited`. So, in this example, our _derived class_ or _child class_ are _wedding_ wedding(Ring), and these rings are inheriting, or deriving their properties from our _base class_ or _parent class_ defined as Ring().
 
-Some benefits of `inheritence`:
+Some benefits of `inheritance`:
 1. Easily represents real-world relationships
 2. Easy to re-use code and add more features to class without _modifying_ the `Class`
 3. Transitive - if wedding(Ring) inherits from Ring(), then my_ring(wedding) and your_ring(wedding) automatically `inherit` from `class` Ring() too!
@@ -271,11 +271,11 @@ In `Python` however, `mangling` allows this convention to be broken (the `protec
 ```Python
 class subclass_name(superclass_name):
 ```
-2. Python supports _multiple inheritence_ or `inheritence` from _multiple `parent` classes_: use a _comma-separated_ `list`
+2. Python supports _multiple inheritance_ or `inheritance` from _multiple `parent` classes_: use a _comma-separated_ `list`
 ```Python
 class Child(Parent1, Parent2):
 ```
-3. Multi-_level_ `inheritence`: we start adding more _family members_ (like... `grandchildren` - I did it earlier)
+3. Multi-_level_ `inheritance`: we start adding more _family members_ (like... `grandchildren` - I did it earlier)
 ```Python
 class Ring(object): # Parent(object)
 
@@ -284,9 +284,9 @@ class wedding(Ring): # Child(Parent)
 class myRing(wedding): # Grandchild(Child)
 ```
 
-There are even more types of `inheritence`:
+There are even more types of `inheritance`:
 
-4. Hierarchical inheritence
-5. Hybrid inheritence
+4. Hierarchical inheritance
+5. Hybrid inheritance
 
 ... and we can define whether or not instances (`children`) inherit private variables (from `parent`)
