@@ -3,6 +3,8 @@
 # don't forget those other python codes from lecture last week - image rotation, resize ... etc
 # could be useful ?
 
+# in general try pip or pip3 
+# have to install pip opencv-python
 import cv2 # specific for accessing the camera and handling this type of live media
 
 import time # so we can pause for the camera to warm up or initiate 

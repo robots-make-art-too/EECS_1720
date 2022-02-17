@@ -128,5 +128,3 @@ class Ring(object):
   # maybe you want to initialize something in def __init__(): ?
   def sound():
     pass # place holder until you think of something to add
-
-
