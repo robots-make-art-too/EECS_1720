@@ -1,7 +1,15 @@
+#======================================
+# RUN ME: 
+# python3 resize.py image.jpg 200 200
+# for a sample image size of 200x200px
+#======================================
 from PIL import Image
-import argparse
-import sys
- 
+import argparse # if we want to run the file and have user input prompts
+import sys 
+
+#======================================
+#======================================
+# User input parsing (getting) 
 parser = argparse.ArgumentParser(description="Resize an image")
  
 parser.add_argument("image", nargs="?", help="Image", default=None)
@@ -13,14 +21,16 @@ arguments = parser.parse_args()
 use_arguments_image = True if arguments.image is not None else False
 use_arguments_width = True if arguments.width is not None else False
 use_arguments_height = True if arguments.height is not None else False
- 
+#======================================
+#====================================== 
+
 # Validation for image file name
 while True:
     if use_arguments_image:
         image = arguments.image
     else:
-        image = input("Enter the image file name: ")
- 
+        image = input("Enter the image file name: ") # Or we could read in a file name instead
+        # image = file name # could have this here as well
     try:
         im = Image.open(image)
     except:
@@ -57,6 +67,13 @@ else:
             print("Invalid height")
             continue
         break
+
+#======================================
+#======================================
+# ALL WE REALLY NEED FOR RESIZING
+# 
+# instead of parsing user input
+# we can read in an image file
  
 im_resize = im.resize((width, height), resample=Image.BICUBIC)
 im_resize.save("resized_" + image)
