@@ -1,4 +1,4 @@
-# Live code
+# Live code from Week 4 - Feb 3
 
 This is a cleaned up folder of our live code from lecture. 
 
@@ -8,8 +8,10 @@ This is a cleaned up folder of our live code from lecture.
 ## What is in here?
 
 We worked through:
-- today 
-
+- creating a colour gradient using _linear interpolation_
+- displaying an iterative geometric pattern
+- basic event-driven actions triggered by a mouse-click
+- intergration of a simple _sinusoidal oscillator_
 
 ## What can I do?
 
@@ -45,7 +47,19 @@ We worked through:
 
 What happens when you change:
 
-1. file
+1. geometric_py:
+   - constantFactor? 
+   - what about circleSize?
+   - can you grow or shrink the shapes?
+   - does it matter?
+   - can you relocate the smallest shape?
+2. colour_py
+   - change any of the variables in lerpColor()?
+     - change the 1.0 to a 1?
+   - can you make the gradient flow diagonally?
+   - can you make the gradient stop and start in other ways?
+     - insert blank space? 
+     - mutliple times using a loop?
 
 
 ### p5.js
