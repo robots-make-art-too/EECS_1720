@@ -52,7 +52,7 @@ class Ring(object):
 
 ### Objects
 
-In general, `Objects` can be _any_ single interger or single string. An example could also be a `python` `list` which is an `Object` that can hold _other_ `objects`. 
+In general, `Objects` can be _any_ single interger or single string. An example could also be a `python` `list` which is an `Object` that can hold _other_ `objects`.
 
 `Objects` consist of:
 
