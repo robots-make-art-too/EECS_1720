@@ -31,7 +31,7 @@ For the week:
    - (Tuesday/Thursday) review previous content for OOP classes in JavaScript (p5.js) and Python (processing.py) 
    - Quiz 2 released (we will _not_ do it in lecture - you will have the next day to complete it)
 5. Friday: 
-   - Hand in Quiz 2 by ~_EOD_ ([E]nd [O]f [D]ay)~ nah we are having too much fun with it. Robots are sticking around until `Family Day`. I swear I did not plan this.
+   - Hand in Quiz 2 by ~_EOD_ ([E]nd [O]f [D]ay)~ nah we are having too much fun with it. The `Robot family` is sticking around until `Family Day`. I swear I did not plan this.
    - Phase 2 group project information released
    - Grades returned if not already done so
    
