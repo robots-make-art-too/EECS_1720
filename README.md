@@ -6,7 +6,7 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 ## what's new
 
-### As of `9pm EST` Feb 14
+### ~As of `9pm EST` Feb 14~ Some updates as of 22 02 2022  < YOLO it's a palindrome date 22 | 02 | 20 | 22 
 
 I am going through the repo to update any files that need updating or to add any lecture notes. Also note the following last week before reading week plan.
 
@@ -32,7 +32,7 @@ For the week:
    - Quiz 2 released (we will _not_ do it in lecture - you will have the next day to complete it)
 5. Friday: 
    - Hand in Quiz 2 by ~_EOD_ ([E]nd [O]f [D]ay)~ nah we are having too much fun with it. The `Robot family` is sticking around until `Family Day`. I swear I did not plan this.
-   - Phase 2 group project information released
+   - ~Phase 2 group project information released~ Since we are having _so much fun_ with `Quiz 2` and `Lab project 2` .. `Phase 2` will be released later during RW
    - Grades returned if not already done so
    
 ---
