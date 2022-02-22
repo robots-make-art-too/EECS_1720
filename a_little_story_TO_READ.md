@@ -64,7 +64,7 @@ The next step is to make `code` _clear, reusable, and neat_.
 
 ## Another example
 
-Once, (the orignal author again) wrote a feature and gave it to a senior developer for review. The developer took one look at their sloppy spacing, mismatched lines, and erratic naming conventions and just said, “Do it again.” 
+Once, (the original author again) wrote a feature and gave it to a senior developer for review. The developer took one look at their sloppy spacing, mismatched lines, and erratic naming conventions and just said, “Do it again.” 
 - It was working. 
 - The syntax was valid. 
 - _It was still wrong._
