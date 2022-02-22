@@ -17,7 +17,7 @@ Maybe you've seen coding boot camps with the motto “Coding Is the New Literacy
 
 That is, of course, ridiculous. Coding is not the new literacy. 
 
-> While most people are literate and know to read, most are _not_ programmers and have _no_ idea what kind of skills a programmer needs. 
+> While most people are literate and know how to read, most are _not_ programmers and have _no_ idea what kind of skills a programmer needs. 
 
 Coding books often present coding as a set of problems with “correct” solutions. And if you can just master the syntax, you’ll be able to make things quickly and easily. _But that is not the way programming works._ 
 - Programming is `messy`. 
