@@ -2,6 +2,14 @@
 
 This is a cleaned up folder of our live code from lecture. 
 
+## UPDATE POST READING WEEK
+
+Most code content will be located at our Group Project repo/website documents from now on:
+
+[gh-pages docs](https://github.com/robots-make-art-too/GroupProject_info/tree/gh-pages/docs)
+
+## PRE READING WEEK CONTENT INFO
+
 1. JavaScript `p5.js` examples are in `/JS`
 2. Python `processing.py` examples are in `/python`.
 
