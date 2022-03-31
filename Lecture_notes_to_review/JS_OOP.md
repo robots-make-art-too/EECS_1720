@@ -1,10 +1,6 @@
 
 # JavaScript OOP |  [O]bject [O]riented [P]rogramming
 
- (Still updating this file...)
-
----
-
 ## Quick Introduction to JavaScript
 
 1. JavaScript is a lightweight, cross-platform, and interpreted scripting language.
