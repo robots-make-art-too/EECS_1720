@@ -1,0 +1,131 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+
+	<body style='margin : 0px; overflow: hidden;'>
+		<center>
+
+			<h2>JavaScript Button to AR page</h2>
+			<p id="demo">Building Interactive Systems</p>
+
+			<!-- MARKER BASED: MULTI MARKER | PRESET hiro | kanji -->
+			<button type="button" onclick="openTab('pages/marker-based/basic-marker.html')">Take me to marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM PATTERN -->
+			<button type="button" onclick="openTab('pages/marker-based/custom-pattern.html')">Take me to custom pattern marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM glTF -->
+			<button type="button" onclick="openTab('pages/marker-based/custom-glTF.html')">Take me to custom glTF loader for marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM BARCODE -->
+			<!-- IN PROGRESS -->
+			<button type="button" onclick="openTab('pages/marker-based/custom-barcode.html')">Take me to custom barcode marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER LESS: IN PROGRESS -->
+			<!-- FLAT SURFACE -->
+			<button type="button" onclick="openTab('pages/marker-less/image-track.html')">Take me to marker-less AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- LOCATION BASED: IN PROGRESS -->
+			<!-- GPS -->
+			<button type="button" onclick="openTab('pages/location-based/location-based.html')">Take me to location-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- ADDITIONAL SOURCE TYPES | IN PROGRESS -->
+			<!-- we have done sourceType: webcam -->
+			<!-- sourceType: Image -->
+			<!-- sourceType: Video -->
+			<button type="button" onclick="openTab('pages/source-types/ar-sources.html')">Take me to image and video source AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+
+			<!-- INTERACTIVE GAME/CLASS-BASED | IN PROGRESS -->
+			<button type="button" onclick="openTab('pages/mini-game/ar-game.html')">Mini AR Game</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>	
+
+		</center>
+	</body>

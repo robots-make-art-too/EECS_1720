@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sunflower Seed
+* source:	https://sketchfab.com/3d-models/sunflower-seed-bf3bae75c18a457195ee602511fb2745
+* author:	Render at Night (https://sketchfab.com/Render_at_Night)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sunflower Seed" (https://sketchfab.com/3d-models/sunflower-seed-bf3bae75c18a457195ee602511fb2745) by Render at Night (https://sketchfab.com/Render_at_Night) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

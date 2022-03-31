@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+
+	<body style='margin : 0px; overflow: hidden;'>
+		
+		<a-scene
+		arjs="sourceType: webcam; debugUIEnabled: false;"
+		embedded
+		renderer="logarithmicDepthBuffer: true;"
+		vr-mode-ui="enabled: false"
+		id="scene">
+			
+			<a-marker id="hiro-1" preset="hiro">
+				<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+				<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+				<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+				<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+			</a-marker>
+			
+			<a-marker id="kanji-1" preset="kanji">
+				<!-- <a-sky color="#ECECEC"></a-sky> -->
+				<a-sphere position="-1.5 0.5 0" color="blue"></a-sphere>
+			</a-marker> 
+
+			<a-entity camera></a-entity>
+
+		</a-scene>
+	</body>
+</htlm>

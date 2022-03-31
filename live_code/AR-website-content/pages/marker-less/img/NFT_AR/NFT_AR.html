@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+
+	<body style='margin : 0px; overflow: hidden;'>
+		<a-scene
+		arjs="sourceType: webcam; debugUIEnabled: false;"
+		embedded
+		renderer="logarithmicDepthBuffer: true;"
+		vr-mode-ui="enabled: false"
+		id="scene">
+
+			<a-assets>
+				<a-asset-item id="KnightOfSwords" src="KnightOfSwords.glb"></a-asset-item>
+			</a-assets>
+
+			<a-marker id="patt8" type="pattern" url="pattern-shield.patt">
+				<a-entity id="live-KnightOfSwords" position="0 0.5 0" rotation="270 180 0" scale="10 10 10" gltf-model="#KnightOfSwords"></a-entity>
+
+			<a-entity camera></a-entity>
+		</a-scene>
+	</body>
+</htlm>
+
+
+
+

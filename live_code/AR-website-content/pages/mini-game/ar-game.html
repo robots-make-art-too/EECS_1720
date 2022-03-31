@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script type="text/javascript" src="js/gamerState.js"></script>
+		<script type="text/javascript" src="js/interaction.js"></script>
+		<script type="text/javascript" src="js/models.js"></script>
+	</head>
+
+		<body style='margin : 0px; overflow: hidden;'>
+			<div class='convo-bubble'></div>
+			
+			<a-scene
+				arjs="sourceType: webcam; debugUIEnabled: false;"
+				embedded
+				renderer="logarithmicDepthBuffer: true;"
+				vr-mode-ui="enabled: false"
+				id="scene"
+				cursor="rayOrigin: mouse" accepts-clicks>
+
+			<a-assets>
+				<a-asset-item id="bowser" src="assets/models/characters/bowser.glb"></a-asset-item>
+				<a-asset-item id="skull" src="assets/models/objects/skull.gltf"></a-asset-item>
+				
+				<!-- for each new character-item combo we need another two asset-items -->
+				<a-asset-item id="chocobo" src="assets/models/characters/chocobo.gltf"></a-asset-item>
+				<a-asset-item id="seeds" src="assets/models/objects/seeds.gltf"></a-asset-item>
+			
+			</a-assets>
+			
+			<!-- bowser and the skull -->
+			<a-marker id="bowser-marker" type="pattern" url="assets/markers/bowser-character.patt">
+				<a-entity id="bowser-gltf" position="-1 0.5 0" scale="0.25 0.25 0.25" rotation="-90 0 0" gltf-model="#bowser"></a-entity>
+			</a-marker>
+			<a-marker id="skull-marker" preset="kanji">
+				<a-entity id="skull-gltf" position="0.5 0.5 0" scale="1 1 1" rotation="-90 0 0" gltf-model="#skull"></a-entity>
+			</a-marker>
+
+			<!-- chocobo and seeds -->
+			<a-marker id="chocobo-marker" type="pattern" url="assets/markers/chocobo-character.patt">
+				<a-entity id="chocobo-gltf" position="0.5 0.5 0" scale="1 1 1" rotation="-90 0 0" gltf-model="#chocobo"></a-entity>
+			</a-marker>
+			<a-marker id="seeds-marker" preset="hiro">
+				<a-entity id="seeds-gltf" position="0.5 0.5 0" scale="1 1 1" rotation="-90 0 0" gltf-model="#seeds"></a-entity>
+			</a-marker>
+
+			
+			<a-entity camera></a-entity>
+
+		</a-scene>
+
+
+	</body>
+
+
+</htlm>

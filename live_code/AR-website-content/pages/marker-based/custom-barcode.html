@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+
+	<body style='margin : 0px; overflow: hidden;'>
+
+		<!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
+		<!-- these are specific to the type of barcode we are expecting and are pre-defined barcodes-->
+		<a-scene 
+			arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'
+			embedded
+			renderer="logarithmicDepthBuffer: true;"
+			vr-mode-ui="enabled: false"
+			id="scene">
+
+			<a-assets>
+				<a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
+			</a-assets>
+
+			<a-marker type='barcode' value='5'><
+				<a-box position='0 0.5 0' material='opacity: 0.5' color='yellow';></a-box>
+				<a-sphere position='1 0.5 0' color='blue';></a-sphere>				
+			</a-marker> 
+
+
+			<a-marker id="animated-marker" type='barcode' value='6'>
+				<a-entity gltf-model="#animated-asset" scale="2"></a-entity>
+			</a-marker>
+
+			<a-entity camera></a-entity>
+
+
+		</a-scene>
+
+	</body>
+</html>

@@ -1,0 +1,42 @@
+OUTPUT of tweepy_get_info
+#==============================================================
+
+The id is : 1491383172629680132
+The id_str is : 1491383172629680132
+The name is : Code Bot
+The screen_name is : __CodeBot__
+The location is : 
+The profile_location is : None
+The description is : Agent Bot
+The url is : https://t.co/M9gMk8oUjT
+The entities are : {'url': {'urls': [{'url': 'https://t.co/M9gMk8oUjT', 'expanded_url': 'https://github.com/robots-make-art-too', 'display_url': 'github.com/robots-make-ar…', 'indices': [0, 23]}]}, 'description': {'urls': []}}
+Is the account protected? : False
+The followers_count is : 0
+The friends_count is : 0
+The listed_count is : 0
+The account was created on : 2022-02-09 12:08:21+00:00
+The favourites_count is : 0
+The utc_offset is : None
+The geo_enabled is : False
+The verified is : False
+The statuses_count is : 4
+The lang is : None
+The status ID is : 1494149913311125505
+The contributors_enabled is : False
+The is_translator is : False
+The is_translation_enabled is : False
+The profile_background_color is : F5F8FA
+The profile_background_tile is : False
+The profile_image_url is : http://pbs.twimg.com/profile_images/1491533293963071491/qBqMceN4_normal.png
+The profile_image_url_https is : https://pbs.twimg.com/profile_images/1491533293963071491/qBqMceN4_normal.png
+The profile_link_color is : 1DA1F2
+The profile_sidebar_border_color is : C0DEED
+The profile_sidebar_fill_color is : DDEEF6
+The profile_text_color is : 333333
+The profile_use_background_image is : True
+The has_extended_profile is : True
+The default_profile is : True
+The default_profile_image is : False
+Is the authenticated user following the account? : False
+Has the authenticated user requested to follow the account? : False
+Are notifications of the authenticated user turned on for the account? : False
