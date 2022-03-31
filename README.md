@@ -6,7 +6,9 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 ## what's new
 
-### AS OF MARCH 31 -- I have moved _all_ code (not including today yet) and lecture notes we have done during lecture, quizzes, lab projects, and from the GroupProject folder where I updated the AR code, all is now copied to the `live_code/` and `Lecture_notes_to_review/` folders in our main `EECS_1720` repo.
+### AS OF MARCH 31
+
+I have moved _all_ code (not including today yet) and lecture notes we have done during lecture, quizzes, lab projects, and from the GroupProject folder where I updated the AR code, all is now copied to the `live_code/` and `Lecture_notes_to_review/` folders in our main `EECS_1720` repo.
 
 ---
 
