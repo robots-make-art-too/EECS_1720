@@ -1,0 +1,23 @@
+{
+  "name": "heroku-node-http",
+  "version": "1.0.0",
+  "description": "example of a basic node-based server for the heroku lab 3 project",
+  "main": "app.js",
+  "scripts": {
+    "test": "N/A for now but you should use these",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MissCrispenCakes/VIDEO_HELP/Heroku-node-http"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "git",
+    "npm",
+    "server"
+  ],
+  "author": "github.com/MissCrispenCakes",
+  "license": "MIT"
+}

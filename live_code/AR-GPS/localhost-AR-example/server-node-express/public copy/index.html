@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script type="text/javascript" src="./ar-threex.js"></script>
+
+		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
+
+	</head>
+
+	<body style="margin: 0; overflow: hidden;">
+		<a-scene
+			vr-mode-ui="enabled: false"
+			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
+			renderer="antialias: true; alpha: true">
+
+			<a-entity gltf-model="./assets/magnemite/scene.gltf"
+				rotation="0 90 0" scale="0.05 0.05 0.05"
+				gps-entity-place="longitude: -78.99470; latitude: 43.83610;"
+				animation-mixer>
+			</a-entity>
+
+			<a-camera gps-cameragps-camera="simulateLatitude: 43.83610; simulateLongitude: -78.99470" rotation-reader></a-camera>
+
+		</a-scene>
+	</body>
+</html>

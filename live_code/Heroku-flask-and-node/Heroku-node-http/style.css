@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(233, 214, 44);
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.content {
+    border-color:white;
+    border-style: solid;
+    background-color: rgb(216,216,255);
+    padding-bottom: 500px;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+    border: 0 none;
+    color: rgb(0, 0, 0);
+    height: 3px;
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Herobrine - Minecraft
+* source:	https://sketchfab.com/3d-models/herobrine-minecraft-9b6123604e3c4c32a115a1c5b3d1f0cf
+* author:	Philippe Oliveira (https://sketchfab.com/PhilippeOliveira)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Herobrine - Minecraft" (https://sketchfab.com/3d-models/herobrine-minecraft-9b6123604e3c4c32a115a1c5b3d1f0cf) by Philippe Oliveira (https://sketchfab.com/PhilippeOliveira) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

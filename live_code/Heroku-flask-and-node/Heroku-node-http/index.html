@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title>NODE TEST</title>
+  <!-- <link rel="stylesheet" src="./style.css"> -->
+  <style>
+    * {
+        font-family: "Rubik", "sans-serif";
+    }
+
+    div {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1 {
+        color: red;
+        font-size: 40pt;
+    }
+
+    p {
+        font-size: 24pt;
+    }
+</style>
+</head>
+
+<body>
+  <div class="content">
+    <header>
+      <h1>Have a Chat</h1>
+    </header>
+
+    <div class="input">
+      <button onclick="message()"> Send a Message </button>
+    </div> <nav class="strong"><p id="output">	</p> </nav>
+
+    <script>
+      const fs  = require('fs')
+      function message(){
+        var outputObj = document.getElementById("output");
+        var msg = prompt("Please enter a message: ", "");
+        outputObj.innerHTML = outputObj.innerHTML + msg + "<hr>";
+
+        msg = msg.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+
+        var blob = new Blob([msg], {type: "text/plain"});
+        var anchor = document.createElement("a");
+        anchor.download = 'tempfile.txt';
+        anchor.href = window.URL.createObjectURL(blob);
+        anchor.target = "_blank";
+        anchor.style.display = "none";
+        document.body.appendChild(anchor);
+        anchor.click();
+        document.body.removeChild(anchor);
+
+      }
+    </script>
+  </div>
+</body>
+</html>

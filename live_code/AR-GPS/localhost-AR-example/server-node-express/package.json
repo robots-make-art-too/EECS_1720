@@ -1,0 +1,27 @@
+{
+  "name": "server-node-express",
+  "version": "1.0.0",
+  "description": "example of a basic node-based server using express for the localhost setup Quiz 3 AR",
+  "main": "index.js",
+  "scripts": {
+    "test": "N/A for now but you should use these",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MissCrispenCakes/VIDEO_HELP/AR-GPS/localhost-AR-examples/server-node-express"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "localhost",
+    "AR"
+  ],
+  "author": "github.com/MissCrispenCakes",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}
