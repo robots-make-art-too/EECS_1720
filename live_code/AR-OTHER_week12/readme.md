@@ -6,6 +6,8 @@
 
 [The image trainer](https://hiukim.github.io/mind-ar-js-doc/tools/compile)
 
+[source code](https://github.com/hiukim/mind-ar-js)
+
 ## Interaction info
 
 [DOM overlays](https://github.com/immersive-web/dom-overlays/blob/master/explainer.md)
