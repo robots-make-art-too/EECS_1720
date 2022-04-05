@@ -18,6 +18,8 @@
 
 [Neural Network training of hand track](https://medium.com/@victor.dibia/how-to-build-a-real-time-hand-detector-using-neural-networks-ssd-on-tensorflow-d6bac0e4b2ce)
 
+[trained model and source code](https://github.com/victordibia/handtracking)
+
 ## other tracking
 
 [hands free](https://handsfree.js.org/)
