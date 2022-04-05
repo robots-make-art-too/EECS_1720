@@ -6,6 +6,15 @@ commits made while instructing EECS 1720 - Building Interactive Systems (winter 
 
 ## what's new
 
+### As of April 5
+
+In `live_code/`:
+- most recently `OTHER_AR_week12/` contains the simple face tracking, image tracking (vs marker tracking), and soon the hand tracking
+- Updates on combining more of the systems together to build differening levels of interactivity will be looked at in our last lab session tomorrow (Wednesday April 6 2022) 
+- Also, Phase 3 - final submission of Group Project requirements - will be detailed in that lab session
+
+---
+
 ### AS OF MARCH 31
 
 I have moved _all_ code (not including today yet) and lecture notes we have done during lecture, quizzes, lab projects, and from the GroupProject folder where I updated the AR code, all is now copied to the `live_code/` and `Lecture_notes_to_review/` folders in our main `EECS_1720` repo.
