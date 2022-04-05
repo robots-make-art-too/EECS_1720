@@ -2,6 +2,13 @@
 
 This is a cleaned up folder of our live code from lecture. 
 
+## Most recently
+
+All code from other folders, and other places we worked or demoed code can now be found in `live_code/` 
+- most recently `OTHER_AR_week12/` contains the simple face tracking, image tracking (vs marker tracking), and soon the hand tracking
+- Updates on combing more of the systems together to build differening levels of interactivity will be looked at in our last lab session tomorrow (Wednesday April 6 2022) 
+- Also, Phase 3 - final submission of Group Project requirements - will be detailed in that lab session
+
 ## UPDATE POST READING WEEK
 
 Most code content will be located at our Group Project repo/website documents from now on:
