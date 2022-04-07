@@ -147,7 +147,7 @@ relation to the contexts of the body, society, or the environment.
     - adding extensions, connecting to social platforms, hosting your own content
 11. Cross-platform, cross-device - web-based
     - open source! see how to build so that you can build!
-12. XR is future, content is immersive, we are just begining to explore this
+12. XR is future, content is immersive, we are just beginning to explore this
 13. Can't wait to see the final projects!
 
 ---
