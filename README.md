@@ -103,6 +103,14 @@ For decades, we have attempted to bridge the gap between the digital and physica
 - lies in the extension of `human experiences` especially relating to the `senses of existence` (represented by VR) and the `acquisition of cognition` (represented by AR)
 - Continuous development in human–computer interactions means this concept is still evolving...
 
+### Augmented Reality
+
+Augmented reality is a technique that adds layers to the world as we are used to it. These layers could be visual, auditory and sensory information to intensify your experience.
+
+Even though you can’t change the world you’re living in, augmented reality makes it possible to give your surroundings an extra dimension. By using images, sounds, texts or even GPS data, you can enrich the place you’re in. It is key that these elements are presented spatially to affect your depth perception.
+
+The AR technique has a certain degree of power, convincing your brain that those elements really exist in your environment.
+
 ---
 
 ## Learning Objectives
