@@ -21,13 +21,14 @@ Winter 2022: Augmented Reality Class Exhibit.
 2. to act upon one another
 3. Interactivity is the communication process that takes place between humans and computer software.
 
-### System
+### Systems
 
 1. A group of interacting, interrelated, or interdependent elements forming a complex whole, especially.
 2. An organism as a whole, especially with regard to its vital processes or functions.
 3. collection of elements or components that are organized for a common purpose.
 4. the organization or plan itself (and is similar in meaning to method, as in "I have my own little system") and sometimes describes the parts in the system (as in "computer system")
 
+---
 
 ## Topics
 
@@ -42,7 +43,6 @@ Winter 2022: Augmented Reality Class Exhibit.
 9. basic server-client models, browser extensions, Web APIs
 10. real-time networking
 
-
 ## Extensions
 
 An extension adds features and functions to a browser. It's created using familiar web-based technologies—HTML, CSS, and JavaScript. It can take advantage of the same web APIs as JavaScript on a web page, but an extension also has access to its own set of JavaScript APIs. This means that you can do a lot more in an extension than you can with code in a web page. 
@@ -56,7 +56,6 @@ An extension adds features and functions to a browser. It's created using famili
 - Games
 - Add development tools
 
-
 ## APIs
 
 Application programming interfaces, or APIs, simplify software development and innovation by enabling applications to exchange data and functionality easily and securely.
@@ -66,26 +65,37 @@ Application programming interfaces, or APIs, simplify software development and i
 3. Developers don't need to know how an API is implemented; they simply use the interface to communicate with other products and services. 
 4. API use has surged over the past decade, to the degree that many of the most popular web applications today would not be possible without APIs.
 
-
 ## Python
 
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.
 
-Its core philosophy is summarized in the document The Zen of Python (PEP 20), which includes aphorisms such as:
-
-- Beautiful is better than ugly.
-- Explicit is better than implicit.
-- Simple is better than complex.
-- Complex is better than complicated.
-- Readability counts.
+- Python is powerful... and fast;
+- plays well with others;
+- runs everywhere;
+- is friendly & easy to learn;
+- is Open
 
 ## JavaScript
 
 JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.
 
+JavaScript is a programming language used primarily by Web browsers to create a dynamic and interactive experience for the user. Most of the functions and applications that make the Internet indispensable to modern life are coded in some form of JavaScript!
 
-JavaScript is a programming language used primarily by Web browsers to create a dynamic and interactive experience for the user. Most of the functions and applications that make the Internet indispensable to modern life are coded in some form of JavaScript !
+## XR
 
+XR is a new buzzword in the tech world, but it’s pretty simple to understand. XR is an umbrella term that rolls in VR, AR, and MR. In a nutshell, XR technology is any tech that takes your display and makes it more immersive, or makes it interact with your real-world surroundings in some way. And it truly is changing the future. 
+
+- extended reality: `XR`
+  - virtual reality: `VR`
+  - augmented reality: `AR`
+  - mixed reality: `MR`
+
+For decades, we have attempted to bridge the gap between the digital and physical worlds. XR is a superset which includes the entire spectrum from `the complete real` to `the complete virtual` 
+- concept of reality–virtuality continuum  
+- lies in the extension of `human experiences` especially relating to the `senses of existence` (represented by VR) and the `acquisition of cognition` (represented by AR)
+- Continuous development in human–computer interactions means this concept is still evolving...
+
+---
 
 ## Learning Objectives
 
@@ -101,7 +111,6 @@ experiment with Internet browser functionality and APIs.
 5. CLO5: Apply generative design principles to the design of 3D form. Discuss form in
 relation to the contexts of the body, society, or the environment.
 6. CLO6: Develop, design, and execute a creative intervention at a specific site.
-
 
 ### Our path
 
@@ -130,5 +139,5 @@ relation to the contexts of the body, society, or the environment.
     - adding extensions, connecting to social platforms, hosting your own content
 11. Cross-platform, cross-device - web-based
     - open source! see how to build so that you can build!
-12. XR is future, content is immersive, we are just begining to explore this
+12. XR is future, content is immersive, we are just beginning to explore this
 13. Can't wait to see the final projects!
