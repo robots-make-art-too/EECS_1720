@@ -147,7 +147,7 @@ relation to the contexts of the body, society, or the environment.
 7. next step in permissions? APIs
    - tokens, connecting
    - the developers method of interacting between existing systems
-8. Building custom access to platforms you know, you use
+8. Building custom access to platforms that you know and that you use
 9. What can we do? What do you want to do? What does Digital Media ask?
    - art, access, content, custom, unique, technical!
    - you need to develop skills to be able to create your own ideas and manifest them!
