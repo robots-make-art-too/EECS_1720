@@ -11,7 +11,7 @@
 <a-camera gps-camera rotation-reader></a-camera>
 <a-box color="yellow" gps-entity-place="latitude: <your-latitude>; longitude: <your-longitude>"/>
 ```
-Note that `rotation-reader` is super important as it lets our system actively reaad the position and/or rotation of the camera.
+Note that `rotation-reader` is super important as it lets our system actively read the position and/or rotation of the camera.
 
 Some useful properties, taking only positive values, in `meters`:
 - minDistance - minimum distance content will be viewed at
