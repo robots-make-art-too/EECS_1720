@@ -41,7 +41,7 @@ We are not leaving `coding` behind! Rather we are _adding_ to this process by sp
 
 When you are asked to `think` about what you want to do _before_ you are shown or start your code - you are being asked _to `program`_. Why? You are being asked to `design` and decide on a _reason for coding_.
 
-When you are given unfamilar code and asked to _change just one thing_ you are being asked _to `program`_. Why? You are being asked to try and _understand the bigger picture_ so you can _make an adjustment_ and move on. This is similar to `maintaining` existing code inside of a `program`.
+When you are given unfamiliar code and asked to _change just one thing_ you are being asked _to `program`_. Why? You are being asked to try and _understand the bigger picture_ so you can _make an adjustment_ and move on. This is similar to `maintaining` existing code inside of a `program`.
 
 When we create our repos and are asked to follow a _specific format_, you are being asked to _to `program`_. Why? The consistent adherence to a `standard format` enables successful maintenance of a `program` and _allows multiple `coders` to contribute_ knowing that what they add will work within the confines of the program.
 
